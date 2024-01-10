@@ -11,7 +11,7 @@ struct ReorderableList: View {
     
     @State private var loremIpsum = [
         "You can delete and reorder while not in edit mode",
-        "Reorder actions will not be announced unles you tap the edit button",
+        "Reorder actions will not be announced unles you tap the edit button and enter edit mode",
         "Delete action will not be announced at all", 
         "Lorem", "ipsum", "dolor", "sit", "amet,", "consectetur", "adipiscing", "elit.", "Nunc", "sit."
     ]
@@ -19,13 +19,11 @@ struct ReorderableList: View {
     var body: some View {
         NavigationStack {
             List {
-                Section {
-                    ForEach(loremIpsum, id: \.self) { lorem in
-                        Text(lorem)
-                    }
-                    .onMove(perform: move)
-                    .onDelete(perform: delete)
+                ForEach(loremIpsum, id: \.self) { lorem in
+                    Text(lorem)
                 }
+                .onMove(perform: move)
+                .onDelete(perform: delete)
             }
             .toolbar {
                 EditButton()

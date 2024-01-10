@@ -20,6 +20,7 @@
 		D89911992B49FE9700B7165C /* HelpListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89911982B49FE9700B7165C /* HelpListItem.swift */; };
 		D899119C2B4A1CA800B7165C /* ComponentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D899119B2B4A1CA800B7165C /* ComponentItem.swift */; };
 		D899119F2B4A483400B7165C /* ReorderableList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D899119E2B4A483400B7165C /* ReorderableList.swift */; };
+		D8CB2D4C2B4E275600730BFB /* CarouselList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CB2D4B2B4E275600730BFB /* CarouselList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		D89911982B49FE9700B7165C /* HelpListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpListItem.swift; sourceTree = "<group>"; };
 		D899119B2B4A1CA800B7165C /* ComponentItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentItem.swift; sourceTree = "<group>"; };
 		D899119E2B4A483400B7165C /* ReorderableList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReorderableList.swift; sourceTree = "<group>"; };
+		D8CB2D4B2B4E275600730BFB /* CarouselList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 			children = (
 				D899118F2B49F75D00B7165C /* ListItem.swift */,
 				D899119E2B4A483400B7165C /* ReorderableList.swift */,
+				D8CB2D4B2B4E275600730BFB /* CarouselList.swift */,
 			);
 			path = Lists;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				D899119F2B4A483400B7165C /* ReorderableList.swift in Sources */,
 				D89911992B49FE9700B7165C /* HelpListItem.swift in Sources */,
 				D899119C2B4A1CA800B7165C /* ComponentItem.swift in Sources */,
+				D8CB2D4C2B4E275600730BFB /* CarouselList.swift in Sources */,
 				D89911652B49EC1200B7165C /* A11yApp.swift in Sources */,
 				D89911962B49F93000B7165C /* MainListItem.swift in Sources */,
 			);

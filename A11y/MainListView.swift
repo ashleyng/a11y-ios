@@ -13,7 +13,7 @@ struct MainListView: View {
         NavigationSplitViewVisibility.doubleColumn
     
     var body: some View {
-        NavigationSplitView(columnVisibility: $columnVisibility, sidebar: {
+        NavigationStack {
             BasicNavigationList(itemList: MainListItem.allCases)
                 .toolbar {
                     NavigationLink(destination: {
@@ -28,9 +28,7 @@ struct MainListView: View {
                     })
                     
                 }
-        }, detail: {
-            
-        })
+        }
     }
 }
 

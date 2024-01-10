@@ -23,7 +23,11 @@ enum ListItem: CaseIterable, Identifiable, ListItemNavigation {
         case .reorderable:
             return "Reorderable"
         case .carousel:
-            return "Carousel"
+            if #available(iOS 17.0, *) {
+                return "Carousel"
+            } else {
+                return "Carousel iOS 17 only"
+            }
         }
     }
     
@@ -32,7 +36,12 @@ enum ListItem: CaseIterable, Identifiable, ListItemNavigation {
         case .reorderable:
             AnyView(ReorderableList())
         case .carousel:
-            AnyView(EmptyView())
+            if #available(iOS 17.0, *) {
+                AnyView(CarouselList())
+            } else {
+                AnyView(EmptyView())
+            }
+            
         }
     }
 }
