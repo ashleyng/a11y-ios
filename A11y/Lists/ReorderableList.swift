@@ -9,10 +9,14 @@ import SwiftUI
 
 struct ReorderableList: View {
     
+    let title: String
+    
     @State private var loremIpsum = [
-        "You can delete and reorder while not in edit mode",
-        "Reorder actions will not be announced unles you tap the edit button and enter edit mode",
-        "Delete action will not be announced at all", 
+        "You can delete and reorder while not in edit mode.",
+        "Tap and hold a row to reorder.",
+        "Swipe to the left to delete or to see delete option.",
+        "Reorder actions will not be announced unless you tap the edit button and enter edit mode.",
+        "Delete action will not be announced at all.",
         "Lorem", "ipsum", "dolor", "sit", "amet,", "consectetur", "adipiscing", "elit.", "Nunc", "sit."
     ]
     
@@ -29,6 +33,7 @@ struct ReorderableList: View {
                 EditButton()
             }
         }
+        .navigationTitle(title)
     }
     
     private func move(from source: IndexSet, to destination: Int) {
@@ -42,5 +47,5 @@ struct ReorderableList: View {
 }
 
 #Preview {
-    ReorderableList()
+    ReorderableList(title: "Reorderable List")
 }

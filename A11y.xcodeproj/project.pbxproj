@@ -21,6 +21,7 @@
 		D899119C2B4A1CA800B7165C /* ComponentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D899119B2B4A1CA800B7165C /* ComponentItem.swift */; };
 		D899119F2B4A483400B7165C /* ReorderableList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D899119E2B4A483400B7165C /* ReorderableList.swift */; };
 		D8CB2D4C2B4E275600730BFB /* CarouselList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CB2D4B2B4E275600730BFB /* CarouselList.swift */; };
+		D8CB2D4E2B4E2EB600730BFB /* CollectionViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CB2D4D2B4E2EB600730BFB /* CollectionViewList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		D899119B2B4A1CA800B7165C /* ComponentItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentItem.swift; sourceTree = "<group>"; };
 		D899119E2B4A483400B7165C /* ReorderableList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReorderableList.swift; sourceTree = "<group>"; };
 		D8CB2D4B2B4E275600730BFB /* CarouselList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselList.swift; sourceTree = "<group>"; };
+		D8CB2D4D2B4E2EB600730BFB /* CollectionViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				D899118F2B49F75D00B7165C /* ListItem.swift */,
 				D899119E2B4A483400B7165C /* ReorderableList.swift */,
 				D8CB2D4B2B4E275600730BFB /* CarouselList.swift */,
+				D8CB2D4D2B4E2EB600730BFB /* CollectionViewList.swift */,
 			);
 			path = Lists;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 			files = (
 				D89911942B49F7BD00B7165C /* BasicNavigationList.swift in Sources */,
 				D89911902B49F75D00B7165C /* ListItem.swift in Sources */,
+				D8CB2D4E2B4E2EB600730BFB /* CollectionViewList.swift in Sources */,
 				D89911672B49EC1200B7165C /* MainListView.swift in Sources */,
 				D899119F2B4A483400B7165C /* ReorderableList.swift in Sources */,
 				D89911992B49FE9700B7165C /* HelpListItem.swift in Sources */,

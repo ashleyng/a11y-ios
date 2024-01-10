@@ -13,6 +13,7 @@ enum ListItem: CaseIterable, Identifiable, ListItemNavigation {
     
     case reorderable
     case carousel
+    case collectionView
     
     static var navTitleString: String {
         "Lists"
@@ -26,22 +27,25 @@ enum ListItem: CaseIterable, Identifiable, ListItemNavigation {
             if #available(iOS 17.0, *) {
                 return "Carousel"
             } else {
-                return "Carousel iOS 17 only"
+                return "Native Carousel iOS 17+ only"
             }
+        case .collectionView:
+            return "Collection View"
         }
     }
     
     var navigationLinkView: some View {
         switch self {
         case .reorderable:
-            AnyView(ReorderableList())
+            AnyView(ReorderableList(title: itemTitleString))
         case .carousel:
             if #available(iOS 17.0, *) {
-                AnyView(CarouselList())
+                AnyView(CarouselList(title: itemTitleString))
             } else {
                 AnyView(EmptyView())
             }
-            
+        case .collectionView:
+            AnyView(CollectionViewList(title: itemTitleString))
         }
     }
 }
