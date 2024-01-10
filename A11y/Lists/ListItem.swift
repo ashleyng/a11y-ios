@@ -30,9 +30,9 @@ enum ListItem: CaseIterable, Identifiable, ListItemNavigation {
     var navigationLinkView: some View {
         switch self {
         case .reorderable:
-            EmptyView()
+            AnyView(ReorderableList())
         case .carousel:
-            EmptyView()
+            AnyView(EmptyView())
         }
     }
 }

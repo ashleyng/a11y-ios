@@ -21,7 +21,6 @@ enum MainListItem: CaseIterable, Identifiable, ListItemNavigation {
     case list
     case components
     case strings
-    case devItems
     
     static var navTitleString: String {
         "Home"
@@ -35,21 +34,17 @@ enum MainListItem: CaseIterable, Identifiable, ListItemNavigation {
             return "Components"
         case .strings:
             return "Strings"
-        case .devItems:
-            return "Dev Items"
         }
     }
     
     var navigationLinkView: some View {
         switch self {
         case .list:
-            BasicNavigationList(itemList: ListItem.allCases)
+            AnyView(BasicNavigationList(itemList: ListItem.allCases))
         case .components:
-            BasicNavigationList(itemList: ListItem.allCases)
+            AnyView(BasicNavigationList(itemList: ComponentItem.allCases))
         case .strings:
-            BasicNavigationList(itemList: ListItem.allCases)
-        case .devItems:
-            BasicNavigationList(itemList: ListItem.allCases)
+            AnyView(EmptyView())
         }
     }
 }
