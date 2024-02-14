@@ -23,7 +23,7 @@ struct CollectionViewList: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                Text("Built-in reordering is not implemented. Developers will have to do a custom implementation")
+                Text("built_in_reordering")
                 LazyVGrid(columns: columns) {
                     ForEach(imageNameString, id: \.self) { value in
                         ZStack {

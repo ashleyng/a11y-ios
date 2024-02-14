@@ -16,21 +16,21 @@ enum ListItem: CaseIterable, Identifiable, ListItemNavigation {
     case collectionView
     
     static var navTitleString: String {
-        "Lists"
+        String(localized: "lists")
     }
     
     var itemTitleString: String {
         switch self {
         case .reorderable:
-            return "Reorderable"
+            return String(localized: "reorderable")
         case .carousel:
             if #available(iOS 17.0, *) {
-                return "Carousel"
+                return String(localized: "carousel")
             } else {
-                return "Native Carousel iOS 17+ only"
+                return String(localized: "native_carousel")
             }
         case .collectionView:
-            return "Collection View"
+            return String(localized: "collection_view")
         }
     }
     

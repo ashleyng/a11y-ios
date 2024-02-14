@@ -24,7 +24,7 @@ struct MainListView: View {
                         })
                     }, label: {
                         Image(systemName: "questionmark.circle")
-                            .accessibilityLabel("Help menu")
+                            .accessibilityLabel(String(localized: "help_menu"))
                     })
                     
                 }

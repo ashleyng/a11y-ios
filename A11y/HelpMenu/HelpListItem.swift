@@ -16,17 +16,17 @@ enum HelpListItem: CaseIterable, Identifiable, ListItemNavigation {
     case shortcuts
     
     static var navTitleString: String {
-        "Help"
+        String(localized: "help")
     }
     
     var itemTitleString: String {
         switch self {
         case .what:
-            return "What is this?"
+            return String(localized: "what_is_this")
         case .terminology:
-            return "Terminology"
+            return String(localized: "terminology")
         case .shortcuts:
-            return "Accessibility shortcuts"
+            return String(localized: "accessibility_shortcuts")
         }
     }
     

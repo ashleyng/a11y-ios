@@ -20,25 +20,25 @@ enum ComponentItem: CaseIterable, Identifiable, ListItemNavigation {
     case progress
     
     static var navTitleString: String {
-        "Components"
+        String(localized: "components")
     }
     
     var itemTitleString: String {
         switch self {
         case .text:
-            return "Text"
+            return String(localized: "text")
         case .image:
-            return "Image"
+            return String(localized: "image")
         case .button:
-            return "Button"
+            return String(localized: "button")
         case .slider:
-            return "Slider"
+            return String(localized: "slider")
         case .toggle:
-            return "Toggle"
+            return String(localized: "toggle")
         case .picker:
-            return "Picker"
+            return String(localized: "picker")
         case .progress:
-            return "Progress"
+            return String(localized: "progress")
         }
     }
     

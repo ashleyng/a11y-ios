@@ -23,17 +23,17 @@ enum MainListItem: CaseIterable, Identifiable, ListItemNavigation {
     case strings
     
     static var navTitleString: String {
-        "Home"
+        String(localized: "home")
     }
     
     var itemTitleString: String {
         switch self {
         case .list:
-            return "Lists"
+            return String(localized: "lists")
         case .components:
-            return "Components"
+            return String(localized: "components")
         case .strings:
-            return "Strings"
+            return String(localized: "strings")
         }
     }
     

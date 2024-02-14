@@ -12,11 +12,11 @@ struct ReorderableList: View {
     let title: String
     
     @State private var loremIpsum = [
-        "You can delete and reorder while not in edit mode.",
-        "Tap and hold a row to reorder.",
-        "Swipe to the left to delete or to see delete option.",
-        "Reorder actions will not be announced unless you tap the edit button and enter edit mode.",
-        "Delete action will not be announced at all.",
+        String(localized: "delete_reorder_edit_mode"),
+        String(localized: "tap_and_hold"),
+        String(localized: "swipe_to_delete"),
+        String(localized: "reorder_action"),
+        String(localized: "delete_announce"),
         "Lorem", "ipsum", "dolor", "sit", "amet,", "consectetur", "adipiscing", "elit.", "Nunc", "sit."
     ]
     
