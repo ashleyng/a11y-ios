@@ -17,7 +17,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Built-in reordering is not implemented. Developers will have to do a custom implementation\""
+            "value" : "Built-in reordering is not implemented. Developers will have to do a custom implementation"
           }
         }
       }
@@ -48,6 +48,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Collection View"
+          }
+        }
+      }
+    },
+    "coming_soon" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ - Coming soon"
           }
         }
       }
@@ -85,6 +96,16 @@
         }
       }
     },
+    "disabled_slider" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Above slider is disabled"
+          }
+        }
+      }
+    },
     "help" : {
       "localizations" : {
         "en" : {
@@ -103,6 +124,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Help menu"
+          }
+        }
+      }
+    },
+    "helper_slider_label" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Values of negative 100 to positive 100"
           }
         }
       }
@@ -146,7 +177,17 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Native Carousel iOS 17+ only\""
+            "value" : "Native Carousel iOS 17+ only"
+          }
+        }
+      }
+    },
+    "not_implemented" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not implemented yet. Coming soon."
           }
         }
       }
@@ -202,6 +243,16 @@
         }
       }
     },
+    "slider_with_label" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Above slider has an inner helper label"
+          }
+        }
+      }
+    },
     "strings" : {
       "comment" : "Label. Navigate to the String implementation lists",
       "extractionState" : "manual",
@@ -220,7 +271,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\"Swipe to the left to delete or to see delete option.\""
+            "value" : "Swipe to the left to delete or to see delete option."
           }
         }
       }

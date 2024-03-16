@@ -26,38 +26,45 @@ enum ComponentItem: CaseIterable, Identifiable, ListItemNavigation {
     var itemTitleString: String {
         switch self {
         case .text:
-            return String(localized: "text")
+            return String.localizedString(key: "coming_soon", arguments: String(localized: "text"))
         case .image:
-            return String(localized: "image")
+            return String.localizedString(key: "coming_soon", arguments: String(localized: "image"))
         case .button:
-            return String(localized: "button")
+            return String.localizedString(key: "coming_soon", arguments: String(localized: "button"))
         case .slider:
             return String(localized: "slider")
         case .toggle:
-            return String(localized: "toggle")
+            return String.localizedString(key: "coming_soon", arguments: String(localized: "toggle"))
         case .picker:
-            return String(localized: "picker")
+            return String.localizedString(key: "coming_soon", arguments: String(localized: "picker"))
         case .progress:
-            return String(localized: "progress")
+            return String.localizedString(key: "coming_soon", arguments: String(localized: "progress"))
         }
     }
     
     var navigationLinkView: some View {
         switch self {
         case .text:
-            EmptyView()
+            SimpleTextView.notImplemented()
+                .toAnyView()
         case .image:
-            EmptyView()
+            SimpleTextView.notImplemented()
+                .toAnyView()
         case .button:
-            EmptyView()
+            SimpleTextView.notImplemented()
+                .toAnyView()
         case .slider:
-            EmptyView()
+            SliderA11y(title: itemTitleString)
+                .toAnyView()
         case .toggle:
-            EmptyView()
+            SimpleTextView.notImplemented()
+                .toAnyView()
         case .picker:
-            EmptyView()
+            SimpleTextView.notImplemented()
+                .toAnyView()
         case .progress:
-            EmptyView()
+            SimpleTextView.notImplemented()
+                .toAnyView()
         }
     }
 }

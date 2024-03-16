@@ -37,15 +37,19 @@ enum ListItem: CaseIterable, Identifiable, ListItemNavigation {
     var navigationLinkView: some View {
         switch self {
         case .reorderable:
-            AnyView(ReorderableList(title: itemTitleString))
+            ReorderableList(title: itemTitleString)
+                .toAnyView()
         case .carousel:
             if #available(iOS 17.0, *) {
-                AnyView(CarouselList(title: itemTitleString))
+                CarouselList(title: itemTitleString)
+                    .toAnyView()
             } else {
-                AnyView(EmptyView())
+                SimpleTextView(label: String(localized: "native_carousel"))
+                    .toAnyView()
             }
         case .collectionView:
-            AnyView(CollectionViewList(title: itemTitleString))
+            CollectionViewList(title: itemTitleString)
+                .toAnyView()
         }
     }
 }

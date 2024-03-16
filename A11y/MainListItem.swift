@@ -33,18 +33,21 @@ enum MainListItem: CaseIterable, Identifiable, ListItemNavigation {
         case .components:
             return String(localized: "components")
         case .strings:
-            return String(localized: "strings")
+            return String.localizedString(key: "coming_soon", arguments: String(localized: "strings"))
         }
     }
     
     var navigationLinkView: some View {
         switch self {
         case .list:
-            AnyView(BasicNavigationList(itemList: ListItem.allCases))
+            BasicNavigationList(itemList: ListItem.allCases)
+                .toAnyView()
         case .components:
-            AnyView(BasicNavigationList(itemList: ComponentItem.allCases))
+            BasicNavigationList(itemList: ComponentItem.allCases)
+                .toAnyView()
         case .strings:
-            AnyView(EmptyView())
+            SimpleTextView.notImplemented()
+                .toAnyView()
         }
     }
 }
