@@ -106,6 +106,16 @@
         }
       }
     },
+    "disabled_toggle" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disabled toggle"
+          }
+        }
+      }
+    },
     "help" : {
       "localizations" : {
         "en" : {
@@ -313,6 +323,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toggle"
+          }
+        }
+      }
+    },
+    "toggle_label" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toggle label"
           }
         }
       }

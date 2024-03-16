@@ -34,7 +34,7 @@ enum ComponentItem: CaseIterable, Identifiable, ListItemNavigation {
         case .slider:
             return String(localized: "slider")
         case .toggle:
-            return String.localizedString(key: "coming_soon", arguments: String(localized: "toggle"))
+            return String(localized: "toggle")
         case .picker:
             return String.localizedString(key: "coming_soon", arguments: String(localized: "picker"))
         case .progress:
@@ -57,7 +57,7 @@ enum ComponentItem: CaseIterable, Identifiable, ListItemNavigation {
             SliderA11y(title: itemTitleString)
                 .toAnyView()
         case .toggle:
-            SimpleTextView.notImplemented()
+            ToggleA11y(title: itemTitleString)
                 .toAnyView()
         case .picker:
             SimpleTextView.notImplemented()
