@@ -139,9 +139,6 @@
         }
       }
     },
-    "header4" : {
-
-    },
     "heading1" : {
       "localizations" : {
         "en" : {
@@ -163,7 +160,25 @@
       }
     },
     "heading3" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Third header"
+          }
+        }
+      }
+    },
+    "heading4" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fourth header"
+          }
+        }
+      }
     },
     "headings" : {
       "localizations" : {
@@ -425,7 +440,14 @@
       }
     },
     "sub_header1" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subheading"
+          }
+        }
+      }
     },
     "swipe_to_delete" : {
       "extractionState" : "manual",
