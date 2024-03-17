@@ -28,6 +28,8 @@
 		D89911992B49FE9700B7165C /* HelpListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89911982B49FE9700B7165C /* HelpListItem.swift */; };
 		D899119C2B4A1CA800B7165C /* ComponentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D899119B2B4A1CA800B7165C /* ComponentItem.swift */; };
 		D899119F2B4A483400B7165C /* ReorderableList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D899119E2B4A483400B7165C /* ReorderableList.swift */; };
+		D8BEEED22BA76C5100208801 /* ShortcutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BEEED12BA76C5100208801 /* ShortcutsView.swift */; };
+		D8BEEED42BA776A400208801 /* WhatIsThisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BEEED32BA776A400208801 /* WhatIsThisView.swift */; };
 		D8CB2D4C2B4E275600730BFB /* CarouselList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CB2D4B2B4E275600730BFB /* CarouselList.swift */; };
 		D8CB2D4E2B4E2EB600730BFB /* CollectionViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CB2D4D2B4E2EB600730BFB /* CollectionViewList.swift */; };
 /* End PBXBuildFile section */
@@ -74,6 +76,8 @@
 		D89911982B49FE9700B7165C /* HelpListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpListItem.swift; sourceTree = "<group>"; };
 		D899119B2B4A1CA800B7165C /* ComponentItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentItem.swift; sourceTree = "<group>"; };
 		D899119E2B4A483400B7165C /* ReorderableList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReorderableList.swift; sourceTree = "<group>"; };
+		D8BEEED12BA76C5100208801 /* ShortcutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutsView.swift; sourceTree = "<group>"; };
+		D8BEEED32BA776A400208801 /* WhatIsThisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatIsThisView.swift; sourceTree = "<group>"; };
 		D8CB2D4B2B4E275600730BFB /* CarouselList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselList.swift; sourceTree = "<group>"; };
 		D8CB2D4D2B4E2EB600730BFB /* CollectionViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -209,6 +213,8 @@
 			isa = PBXGroup;
 			children = (
 				D89911982B49FE9700B7165C /* HelpListItem.swift */,
+				D8BEEED12BA76C5100208801 /* ShortcutsView.swift */,
+				D8BEEED32BA776A400208801 /* WhatIsThisView.swift */,
 			);
 			path = HelpMenu;
 			sourceTree = "<group>";
@@ -361,7 +367,9 @@
 				D89911672B49EC1200B7165C /* MainListView.swift in Sources */,
 				D895C9EA2BA5417300F82475 /* RotorHeadings.swift in Sources */,
 				D895C9E12BA5305100F82475 /* SimpleTextView.swift in Sources */,
+				D8BEEED42BA776A400208801 /* WhatIsThisView.swift in Sources */,
 				D899119F2B4A483400B7165C /* ReorderableList.swift in Sources */,
+				D8BEEED22BA76C5100208801 /* ShortcutsView.swift in Sources */,
 				D89911992B49FE9700B7165C /* HelpListItem.swift in Sources */,
 				D895C9E32BA538B300F82475 /* String+Extension.swift in Sources */,
 				D899119C2B4A1CA800B7165C /* ComponentItem.swift in Sources */,

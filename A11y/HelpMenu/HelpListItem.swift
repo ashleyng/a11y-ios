@@ -24,20 +24,23 @@ enum HelpListItem: CaseIterable, Identifiable, ListItemNavigation {
         case .what:
             return String(localized: "what_is_this")
         case .terminology:
-            return String(localized: "terminology")
+            return String.localizedString(key: "coming_soon", arguments: String(localized: "terminology"))
         case .shortcuts:
-            return String(localized: "accessibility_shortcuts")
+            return String(localized: "about_settings_and_shortcuts")
         }
     }
     
     var navigationLinkView: some View {
         switch self {
         case .what:
-            EmptyView()
+            WhatIsThisView(title: itemTitleString)
+                .toAnyView()
         case .terminology:
-            EmptyView()
+            SimpleTextView.notImplemented()
+                .toAnyView()
         case .shortcuts:
-            EmptyView()
+            ShortcutsView(title: String(localized: "settings_and_shortcuts"))
+                .toAnyView()
         }
     }
 }

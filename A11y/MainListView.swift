@@ -16,16 +16,14 @@ struct MainListView: View {
         NavigationStack {
             BasicNavigationList(itemList: MainListItem.allCases)
                 .toolbar {
-                    NavigationLink(destination: {
-                        Button(action: {
-                            
-                        }, label: {
+                    ToolbarItem {
+                        NavigationLink(destination: {
                             BasicNavigationList(itemList: HelpListItem.allCases)
+                        }, label: {
+                            Image(systemName: "questionmark.circle")
+                                .accessibilityLabel(String(localized: "help_menu"))
                         })
-                    }, label: {
-                        Image(systemName: "questionmark.circle")
-                            .accessibilityLabel(String(localized: "help_menu"))
-                    })
+                    }
                     
                 }
         }

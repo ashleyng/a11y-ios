@@ -1,6 +1,16 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "about_settings_and_shortcuts" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About Settings & Shortcuts"
+          }
+        }
+      }
+    },
     "accessibility_shortcuts" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -31,6 +41,9 @@
           }
         }
       }
+    },
+    "buttons" : {
+
     },
     "carousel" : {
       "localizations" : {
@@ -75,6 +88,16 @@
         }
       }
     },
+    "control_center" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can have some accessibility settings within  your Control Center. You can change these settings in Settings -> Control Center. One of the key settings to have here is Text Size."
+          }
+        }
+      }
+    },
     "delete_announce" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -112,6 +135,42 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Disabled toggle"
+          }
+        }
+      }
+    },
+    "header4" : {
+
+    },
+    "heading1" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "First header"
+          }
+        }
+      }
+    },
+    "heading2" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Second header"
+          }
+        }
+      }
+    },
+    "heading3" : {
+
+    },
+    "headings" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Headings"
           }
         }
       }
@@ -170,6 +229,12 @@
         }
       }
     },
+    "images" : {
+
+    },
+    "links" : {
+
+    },
     "lists" : {
       "comment" : "Label. Navigate to the Lists page",
       "extractionState" : "manual",
@@ -178,6 +243,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lists"
+          }
+        }
+      }
+    },
+    "menu_shortcut" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can triple-click the Side button to toggle or show accessibility settings to quickly turn them on/off. To enable or change the settings navigate to Settings -> Accessibility -> Accessibility Shortcut. A key setting to have here is VoiceOver."
           }
         }
       }
@@ -222,6 +297,26 @@
         }
       }
     },
+    "reduce_motion" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reduce Motion"
+          }
+        }
+      }
+    },
+    "reduce_motion_description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Reduce Motion can be used to disable things such as animation. You can find this settings in Settings -> Accessibility -> Motion."
+          }
+        }
+      }
+    },
     "reorder_action" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -239,6 +334,60 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reorderable"
+          }
+        }
+      }
+    },
+    "rotor" : {
+      "comment" : "Apple's accessibility Rotor tool",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rotor"
+          }
+        }
+      }
+    },
+    "rotor_dev_heading_helper" : {
+      "comment" : "\"Text\" is the Text class used in SwiftUI",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Developers, to utilize this you need to put the `.isHeader` trait on the Text element"
+          }
+        }
+      }
+    },
+    "rotor_helper" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can utilize the Rotor to skip between the headings on the view."
+          }
+        }
+      }
+    },
+    "settings" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
+        }
+      }
+    },
+    "settings_and_shortcuts" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings & Shortcuts"
           }
         }
       }
@@ -274,6 +423,9 @@
           }
         }
       }
+    },
+    "sub_header1" : {
+
     },
     "swipe_to_delete" : {
       "extractionState" : "manual",
@@ -317,6 +469,26 @@
         }
       }
     },
+    "text_size" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Text Size"
+          }
+        }
+      }
+    },
+    "text_size_description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "There are two different text size settings. There is the non-accessibility setting that can be found in Settings -> Display & Brightness -> Text Size. The accessibility version of this (which has a wider range of text sizes) can be found and enabled at Settings -> Accessibility -> Display & Text Size -> Larger Text."
+          }
+        }
+      }
+    },
     "toggle" : {
       "localizations" : {
         "en" : {
@@ -344,6 +516,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "What is this?"
+          }
+        }
+      }
+    },
+    "what_is_this_description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I wanted to create an app for developers, designers, or anyone in the mobile tech industry to have an easy way to see what native accessibility components looked like. To show designers these are what native accessibility features you can have and how they behave and for developers to see what APIs are available as well as how to use them."
           }
         }
       }
