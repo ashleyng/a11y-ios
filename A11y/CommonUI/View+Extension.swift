@@ -11,4 +11,18 @@ extension View {
     func toAnyView() -> AnyView {
         return AnyView(self)
     }
+    
+    func maxWidthLeading() -> some View {
+        modifier(MaxWidthLeadingModifier())
+    }
 }
+
+struct MaxWidthLeadingModifier: ViewModifier {
+        
+    func body(content: Content) -> some View {
+        content
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .fixedSize(horizontal: false, vertical: false)
+    }
+}
+
