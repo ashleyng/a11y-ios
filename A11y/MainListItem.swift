@@ -13,6 +13,7 @@ protocol ListItemNavigation {
     var navigationLinkView: T { get }
     static var navTitleString: String { get }
     var itemTitleString: String { get }
+    var itemDescription: String? { get }
 }
 
 enum MainListItem: CaseIterable, Identifiable, ListItemNavigation {
@@ -38,6 +39,10 @@ enum MainListItem: CaseIterable, Identifiable, ListItemNavigation {
         case .strings:
             return String.localizedString(key: "coming_soon", arguments: String(localized: "strings"))
         }
+    }
+    
+    var itemDescription: String? {
+        return nil
     }
     
     var navigationLinkView: some View {

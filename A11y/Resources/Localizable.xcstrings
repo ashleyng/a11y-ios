@@ -22,6 +22,16 @@
         }
       }
     },
+    "basic_pickers" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basic pickers"
+          }
+        }
+      }
+    },
     "built_in_reordering" : {
       "localizations" : {
         "en" : {
@@ -55,6 +65,16 @@
         }
       }
     },
+    "cheese" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cheese"
+          }
+        }
+      }
+    },
     "collection_view" : {
       "localizations" : {
         "en" : {
@@ -64,6 +84,9 @@
           }
         }
       }
+    },
+    "color_picker" : {
+
     },
     "coming_soon" : {
       "extractionState" : "manual",
@@ -94,6 +117,26 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You can have some accessibility settings within  your Control Center. You can change these settings in Settings -> Control Center. One of the key settings to have here is Text Size."
+          }
+        }
+      }
+    },
+    "date_picker" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DatePicker"
+          }
+        }
+      }
+    },
+    "date_picker_larger_fonts" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The label for these date pickers and built within the pickers. In larger fonts, the Picker will wrap the label but keep the date components on a single line."
           }
         }
       }
@@ -262,12 +305,42 @@
         }
       }
     },
+    "menu_segmented_picker" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menu and segmented control pickers"
+          }
+        }
+      }
+    },
     "menu_shortcut" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "You can triple-click the Side button to toggle or show accessibility settings to quickly turn them on/off. To enable or change the settings navigate to Settings -> Accessibility -> Accessibility Shortcut. A key setting to have here is VoiceOver."
+          }
+        }
+      }
+    },
+    "multidate_picker" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MultiDatePicker"
+          }
+        }
+      }
+    },
+    "mushrooms" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mushrooms"
           }
         }
       }
@@ -292,12 +365,72 @@
         }
       }
     },
+    "olives" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Olives"
+          }
+        }
+      }
+    },
+    "pepperoni" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pepperoni"
+          }
+        }
+      }
+    },
+    "peppers" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peppers"
+          }
+        }
+      }
+    },
     "picker" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Picker"
+          }
+        }
+      }
+    },
+    "pickers" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pickers"
+          }
+        }
+      }
+    },
+    "pineapple" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pineapple"
+          }
+        }
+      }
+    },
+    "pizza_toppings" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pizza toppings"
           }
         }
       }
@@ -387,6 +520,16 @@
         }
       }
     },
+    "segemented_tap_and_hold" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The segmented picker does not grow in size, but in larger fonts you can tap and hold one of the items for a larger popup to display."
+          }
+        }
+      }
+    },
     "settings" : {
       "localizations" : {
         "en" : {
@@ -426,6 +569,18 @@
           }
         }
       }
+    },
+    "Start Date" : {
+
+    },
+    "Start Date and Time" : {
+
+    },
+    "Start Time" : {
+
+    },
+    "step_slider" : {
+
     },
     "strings" : {
       "comment" : "Label. Navigate to the String implementation lists",

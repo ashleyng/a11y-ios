@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D846C87F2BAA642B002544C4 /* PickerListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D846C87E2BAA642B002544C4 /* PickerListItem.swift */; };
+		D846C8812BAA6580002544C4 /* MenuPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D846C8802BAA6580002544C4 /* MenuPicker.swift */; };
+		D846C8832BAA6B6C002544C4 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D846C8822BAA6B6C002544C4 /* DatePickerView.swift */; };
 		D88746ED2B7C5B0B00203819 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D88746EC2B7C5B0B00203819 /* Localizable.xcstrings */; };
 		D895C9DC2BA52E6900F82475 /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895C9DB2BA52E6900F82475 /* Slider.swift */; };
 		D895C9DE2BA52FC400F82475 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895C9DD2BA52FC400F82475 /* View+Extension.swift */; };
@@ -52,6 +55,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D846C87E2BAA642B002544C4 /* PickerListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerListItem.swift; sourceTree = "<group>"; };
+		D846C8802BAA6580002544C4 /* MenuPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPicker.swift; sourceTree = "<group>"; };
+		D846C8822BAA6B6C002544C4 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
 		D88746EC2B7C5B0B00203819 /* Localizable.xcstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		D895C9DB2BA52E6900F82475 /* Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
 		D895C9DD2BA52FC400F82475 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
@@ -107,6 +113,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D846C87D2BAA641F002544C4 /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				D846C87E2BAA642B002544C4 /* PickerListItem.swift */,
+				D846C8802BAA6580002544C4 /* MenuPicker.swift */,
+				D846C8822BAA6B6C002544C4 /* DatePickerView.swift */,
+			);
+			path = Pickers;
+			sourceTree = "<group>";
+		};
 		D88746EB2B7C5AF600203819 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -222,6 +238,7 @@
 		D899119A2B4A1C8A00B7165C /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				D846C87D2BAA641F002544C4 /* Pickers */,
 				D899119B2B4A1CA800B7165C /* ComponentItem.swift */,
 				D895C9DB2BA52E6900F82475 /* Slider.swift */,
 				D895C9E42BA53B4F00F82475 /* Toggle.swift */,
@@ -367,11 +384,14 @@
 				D89911672B49EC1200B7165C /* MainListView.swift in Sources */,
 				D895C9EA2BA5417300F82475 /* RotorHeadings.swift in Sources */,
 				D895C9E12BA5305100F82475 /* SimpleTextView.swift in Sources */,
+				D846C8812BAA6580002544C4 /* MenuPicker.swift in Sources */,
 				D8BEEED42BA776A400208801 /* WhatIsThisView.swift in Sources */,
+				D846C87F2BAA642B002544C4 /* PickerListItem.swift in Sources */,
 				D899119F2B4A483400B7165C /* ReorderableList.swift in Sources */,
 				D8BEEED22BA76C5100208801 /* ShortcutsView.swift in Sources */,
 				D89911992B49FE9700B7165C /* HelpListItem.swift in Sources */,
 				D895C9E32BA538B300F82475 /* String+Extension.swift in Sources */,
+				D846C8832BAA6B6C002544C4 /* DatePickerView.swift in Sources */,
 				D899119C2B4A1CA800B7165C /* ComponentItem.swift in Sources */,
 				D8CB2D4C2B4E275600730BFB /* CarouselList.swift in Sources */,
 				D89911652B49EC1200B7165C /* A11yApp.swift in Sources */,

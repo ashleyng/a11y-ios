@@ -30,6 +30,10 @@ enum HelpListItem: CaseIterable, Identifiable, ListItemNavigation {
         }
     }
     
+    var itemDescription: String? {
+        return nil
+    }
+    
     var navigationLinkView: some View {
         switch self {
         case .what:

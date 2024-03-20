@@ -13,6 +13,7 @@ struct SliderA11y: View {
     
     @State private var value1: Double = 0
     @State private var value2: Double = 0.75
+    @State private var value3: Double = 20
 
     var body: some View {
         NavigationStack {
@@ -29,6 +30,11 @@ struct SliderA11y: View {
                         Slider(value: $value2, in: 0...1)
                             .disabled(true)
                         Text("disabled_slider")
+                    }
+                    
+                    VStack {
+                        Slider(value: $value3, in: 0...100, step: 10)
+                        Text("step_slider")
                     }
                 }
                 .padding(16)

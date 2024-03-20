@@ -17,7 +17,15 @@ struct BasicNavigationList<T: ListItemNavigation>: View where T: Identifiable {
                 NavigationLink {
                     item.navigationLinkView
                 } label: {
-                    Text(item.itemTitleString)
+                    VStack {
+                        Text(item.itemTitleString)
+                            .maxWidthLeading()
+                        if let description = item.itemDescription {
+                            Text(description)
+                                .maxWidthLeading()
+                                .font(.caption)
+                        }
+                    }
                 }
                 
             }
