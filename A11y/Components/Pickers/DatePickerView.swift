@@ -43,29 +43,31 @@ struct DatePickerView: View {
                             Text("date_picker_larger_fonts")
                             Divider()
                             DatePicker(
-                                "Start Date and Time",
+                                "start_date_time",
                                 selection: $date1,
                                 in: dateRange,
                                 displayedComponents: [.date, .hourAndMinute]
                             )
                             Divider()
                             DatePicker(
-                                "Start Time",
+                                "start_time",
                                 selection: $date2,
                                 in: dateRange,
                                 displayedComponents: [.hourAndMinute]
                             )
                             Divider()
                             DatePicker(
-                                "Start Date",
+                                "start_date",
                                 selection: $date3,
+                                in: dateRange,
                                 displayedComponents: [.date]
                             )
                         }
                         
                         DatePicker(
-                            "Start Date",
+                            "start_date",
                             selection: $date4,
+                            in: dateRange,
                             displayedComponents: [.date]
                         )
                         .datePickerStyle(.graphical)

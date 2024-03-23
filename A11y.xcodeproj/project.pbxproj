@@ -35,6 +35,8 @@
 		D8BEEED42BA776A400208801 /* WhatIsThisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BEEED32BA776A400208801 /* WhatIsThisView.swift */; };
 		D8CB2D4C2B4E275600730BFB /* CarouselList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CB2D4B2B4E275600730BFB /* CarouselList.swift */; };
 		D8CB2D4E2B4E2EB600730BFB /* CollectionViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CB2D4D2B4E2EB600730BFB /* CollectionViewList.swift */; };
+		D8E8BA7D2BAE55820066C5EF /* MultiDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E8BA7C2BAE55820066C5EF /* MultiDatePickerView.swift */; };
+		D8E8BA7F2BAE567E0066C5EF /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E8BA7E2BAE567E0066C5EF /* ColorPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +88,8 @@
 		D8BEEED32BA776A400208801 /* WhatIsThisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatIsThisView.swift; sourceTree = "<group>"; };
 		D8CB2D4B2B4E275600730BFB /* CarouselList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselList.swift; sourceTree = "<group>"; };
 		D8CB2D4D2B4E2EB600730BFB /* CollectionViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewList.swift; sourceTree = "<group>"; };
+		D8E8BA7C2BAE55820066C5EF /* MultiDatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDatePickerView.swift; sourceTree = "<group>"; };
+		D8E8BA7E2BAE567E0066C5EF /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,8 @@
 				D846C87E2BAA642B002544C4 /* PickerListItem.swift */,
 				D846C8802BAA6580002544C4 /* MenuPicker.swift */,
 				D846C8822BAA6B6C002544C4 /* DatePickerView.swift */,
+				D8E8BA7C2BAE55820066C5EF /* MultiDatePickerView.swift */,
+				D8E8BA7E2BAE567E0066C5EF /* ColorPickerView.swift */,
 			);
 			path = Pickers;
 			sourceTree = "<group>";
@@ -377,6 +383,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8E8BA7D2BAE55820066C5EF /* MultiDatePickerView.swift in Sources */,
 				D89911942B49F7BD00B7165C /* BasicNavigationList.swift in Sources */,
 				D895C9DC2BA52E6900F82475 /* Slider.swift in Sources */,
 				D89911902B49F75D00B7165C /* ListItem.swift in Sources */,
@@ -384,6 +391,7 @@
 				D89911672B49EC1200B7165C /* MainListView.swift in Sources */,
 				D895C9EA2BA5417300F82475 /* RotorHeadings.swift in Sources */,
 				D895C9E12BA5305100F82475 /* SimpleTextView.swift in Sources */,
+				D8E8BA7F2BAE567E0066C5EF /* ColorPickerView.swift in Sources */,
 				D846C8812BAA6580002544C4 /* MenuPicker.swift in Sources */,
 				D8BEEED42BA776A400208801 /* WhatIsThisView.swift in Sources */,
 				D846C87F2BAA642B002544C4 /* PickerListItem.swift in Sources */,

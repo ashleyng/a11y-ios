@@ -26,9 +26,9 @@ enum PickerListItem: CaseIterable, Identifiable, ListItemNavigation {
         case .datePicker:
             return String(localized: "date_picker")
         case .multidatePicker:
-            return String.localizedString(key: "coming_soon", arguments: String(localized: "multidate_picker"))
+            return String(localized: "multidate_picker")
         case .colorPicker:
-            return String.localizedString(key: "coming_soon", arguments: String(localized: "color_picker"))
+            return String(localized: "color_picker")
         }
     }
     
@@ -54,10 +54,10 @@ enum PickerListItem: CaseIterable, Identifiable, ListItemNavigation {
             DatePickerView(title: itemTitleString)
                 .toAnyView()
         case .multidatePicker:
-            SimpleTextView.notImplemented()
+            MultiDatePickerView(title: itemTitleString)
                 .toAnyView()
         case .colorPicker:
-            SimpleTextView.notImplemented()
+            ColorPickerView(title: itemTitleString)
                 .toAnyView()
         }
     }

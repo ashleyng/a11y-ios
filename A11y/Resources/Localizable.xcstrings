@@ -86,7 +86,14 @@
       }
     },
     "color_picker" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Color Picker"
+          }
+        }
+      }
     },
     "coming_soon" : {
       "extractionState" : "manual",
@@ -121,6 +128,16 @@
         }
       }
     },
+    "current_value" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Current value: %@"
+          }
+        }
+      }
+    },
     "date_picker" : {
       "localizations" : {
         "en" : {
@@ -136,7 +153,17 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The label for these date pickers and built within the pickers. In larger fonts, the Picker will wrap the label but keep the date components on a single line."
+            "value" : "The label for these date pickers are built within the pickers. In larger fonts, the Picker will wrap the label but keep the date components on a single line."
+          }
+        }
+      }
+    },
+    "dates_available" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dates available"
           }
         }
       }
@@ -445,6 +472,16 @@
         }
       }
     },
+    "range" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ to %@"
+          }
+        }
+      }
+    },
     "reduce_motion" : {
       "localizations" : {
         "en" : {
@@ -510,12 +547,12 @@
         }
       }
     },
-    "rotor_helper" : {
+    "rotor_usage" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "You can utilize the Rotor to skip between the headings on the view."
+            "value" : "To use the Rotor, have VoiceOver on. Then you can twist two fingers on the screen like you're turning a dial. Keep turning till you get to the \"Headings\" option. If you do not have the \"Headings\" option you can enable it in the Settings app under Accessibility. Then you can swipe up and down to skip between headings or continue swiping left and right to go to the next item in the hierarchy."
           }
         }
       }
@@ -570,17 +607,69 @@
         }
       }
     },
-    "Start Date" : {
-
+    "start_date" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start date"
+          }
+        }
+      }
     },
-    "Start Date and Time" : {
-
+    "start_date_time" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start date and time"
+          }
+        }
+      }
     },
-    "Start Time" : {
-
+    "start_time" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start time"
+          }
+        }
+      }
     },
     "step_slider" : {
-
+      "comment" : "Slider with predefined steps it can select.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stepped Slider"
+          }
+        }
+      }
+    },
+    "stepper" : {
+      "comment" : "The Apple UI element Stepper",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stepper"
+          }
+        }
+      }
+    },
+    "stepper_range_step" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stepper with range %@ and stepping by %@."
+          }
+        }
+      }
     },
     "strings" : {
       "comment" : "Label. Navigate to the String implementation lists",

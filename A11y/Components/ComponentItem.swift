@@ -18,6 +18,7 @@ enum ComponentItem: CaseIterable, Identifiable, ListItemNavigation {
     case toggle
     case picker
     case progress
+    case stepper
     
     static var navTitleString: String {
         String(localized: "components")
@@ -39,6 +40,8 @@ enum ComponentItem: CaseIterable, Identifiable, ListItemNavigation {
             return String(localized: "picker")
         case .progress:
             return String.localizedString(key: "coming_soon", arguments: String(localized: "progress"))
+        case .stepper:
+            return String(localized: "stepper")
         }
     }
     
@@ -68,6 +71,9 @@ enum ComponentItem: CaseIterable, Identifiable, ListItemNavigation {
                 .toAnyView()
         case .progress:
             SimpleTextView.notImplemented()
+                .toAnyView()
+        case .stepper:
+            StepperView(title: itemTitleString)
                 .toAnyView()
         }
     }
