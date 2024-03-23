@@ -37,6 +37,9 @@
 		D8CB2D4E2B4E2EB600730BFB /* CollectionViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CB2D4D2B4E2EB600730BFB /* CollectionViewList.swift */; };
 		D8E8BA7D2BAE55820066C5EF /* MultiDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E8BA7C2BAE55820066C5EF /* MultiDatePickerView.swift */; };
 		D8E8BA7F2BAE567E0066C5EF /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E8BA7E2BAE567E0066C5EF /* ColorPickerView.swift */; };
+		D8E8BA812BAE58700066C5EF /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E8BA802BAE58700066C5EF /* StepperView.swift */; };
+		D8E8BA842BAE5D6E0066C5EF /* ChartsListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E8BA832BAE5D6E0066C5EF /* ChartsListItem.swift */; };
+		D8E8BA862BAE5DEC0066C5EF /* GaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E8BA852BAE5DEC0066C5EF /* GaugeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +93,9 @@
 		D8CB2D4D2B4E2EB600730BFB /* CollectionViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewList.swift; sourceTree = "<group>"; };
 		D8E8BA7C2BAE55820066C5EF /* MultiDatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDatePickerView.swift; sourceTree = "<group>"; };
 		D8E8BA7E2BAE567E0066C5EF /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		D8E8BA802BAE58700066C5EF /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
+		D8E8BA832BAE5D6E0066C5EF /* ChartsListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsListItem.swift; sourceTree = "<group>"; };
+		D8E8BA852BAE5DEC0066C5EF /* GaugeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +175,7 @@
 		D89911632B49EC1200B7165C /* A11y */ = {
 			isa = PBXGroup;
 			children = (
+				D8E8BA822BAE5CD60066C5EF /* Charts */,
 				D895C9E62BA5407800F82475 /* Rotor */,
 				D899119A2B4A1C8A00B7165C /* Components */,
 				D89911972B49FE8400B7165C /* HelpMenu */,
@@ -248,8 +255,18 @@
 				D899119B2B4A1CA800B7165C /* ComponentItem.swift */,
 				D895C9DB2BA52E6900F82475 /* Slider.swift */,
 				D895C9E42BA53B4F00F82475 /* Toggle.swift */,
+				D8E8BA802BAE58700066C5EF /* StepperView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		D8E8BA822BAE5CD60066C5EF /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				D8E8BA832BAE5D6E0066C5EF /* ChartsListItem.swift */,
+				D8E8BA852BAE5DEC0066C5EF /* GaugeView.swift */,
+			);
+			path = Charts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -384,16 +401,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8E8BA7D2BAE55820066C5EF /* MultiDatePickerView.swift in Sources */,
+				D8E8BA842BAE5D6E0066C5EF /* ChartsListItem.swift in Sources */,
 				D89911942B49F7BD00B7165C /* BasicNavigationList.swift in Sources */,
 				D895C9DC2BA52E6900F82475 /* Slider.swift in Sources */,
 				D89911902B49F75D00B7165C /* ListItem.swift in Sources */,
 				D8CB2D4E2B4E2EB600730BFB /* CollectionViewList.swift in Sources */,
 				D89911672B49EC1200B7165C /* MainListView.swift in Sources */,
+				D8E8BA862BAE5DEC0066C5EF /* GaugeView.swift in Sources */,
 				D895C9EA2BA5417300F82475 /* RotorHeadings.swift in Sources */,
 				D895C9E12BA5305100F82475 /* SimpleTextView.swift in Sources */,
 				D8E8BA7F2BAE567E0066C5EF /* ColorPickerView.swift in Sources */,
 				D846C8812BAA6580002544C4 /* MenuPicker.swift in Sources */,
 				D8BEEED42BA776A400208801 /* WhatIsThisView.swift in Sources */,
+				D8E8BA812BAE58700066C5EF /* StepperView.swift in Sources */,
 				D846C87F2BAA642B002544C4 /* PickerListItem.swift in Sources */,
 				D899119F2B4A483400B7165C /* ReorderableList.swift in Sources */,
 				D8BEEED22BA76C5100208801 /* ShortcutsView.swift in Sources */,

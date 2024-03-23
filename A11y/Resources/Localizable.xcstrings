@@ -32,6 +32,28 @@
         }
       }
     },
+    "battery_level" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battery Level"
+          }
+        }
+      }
+    },
+    "BPM" : {
+      "comment" : "Abbreviation for beats per minute.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BPM"
+          }
+        }
+      }
+    },
     "built_in_reordering" : {
       "localizations" : {
         "en" : {
@@ -65,12 +87,32 @@
         }
       }
     },
+    "charts" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charts"
+          }
+        }
+      }
+    },
     "cheese" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cheese"
+          }
+        }
+      }
+    },
+    "circular_gauges_not_dynamic" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Circular gauges do not grow with dynamic font sizes."
           }
         }
       }
@@ -134,6 +176,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Current value: %@"
+          }
+        }
+      }
+    },
+    "custom_min_max_linear_gauge" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Linear gauge with custom minimum and maximum values."
           }
         }
       }
@@ -205,6 +257,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Disabled toggle"
+          }
+        }
+      }
+    },
+    "gauges" : {
+      "comment" : "The UI element.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gauges"
           }
         }
       }
@@ -316,6 +380,16 @@
     },
     "images" : {
 
+    },
+    "linear_gauge_description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Linear gauges with built in label options."
+          }
+        }
+      }
     },
     "links" : {
 

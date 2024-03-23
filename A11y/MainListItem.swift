@@ -23,6 +23,7 @@ enum MainListItem: CaseIterable, Identifiable, ListItemNavigation {
     case components
     case strings
     case rotor
+    case charts
     
     static var navTitleString: String {
         String(localized: "home")
@@ -38,6 +39,8 @@ enum MainListItem: CaseIterable, Identifiable, ListItemNavigation {
             return String(localized: "rotor")
         case .strings:
             return String.localizedString(key: "coming_soon", arguments: String(localized: "strings"))
+        case .charts:
+            return String(localized: "charts")
         }
     }
     
@@ -58,6 +61,9 @@ enum MainListItem: CaseIterable, Identifiable, ListItemNavigation {
                 .toAnyView()
         case .strings:
             SimpleTextView.notImplemented()
+                .toAnyView()
+        case .charts:
+            BasicNavigationList(itemList: ChartListItem.allCases)
                 .toAnyView()
         }
     }
