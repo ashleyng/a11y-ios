@@ -42,6 +42,17 @@
         }
       }
     },
+    "beats_per_minute" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beats per minute"
+          }
+        }
+      }
+    },
     "BPM" : {
       "comment" : "Abbreviation for beats per minute.",
       "extractionState" : "manual",
@@ -107,7 +118,18 @@
         }
       }
     },
+    "circular_gauges" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Circular gauges"
+          }
+        }
+      }
+    },
     "circular_gauges_not_dynamic" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -257,6 +279,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Disabled toggle"
+          }
+        }
+      }
+    },
+    "double_current_value" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Developers will need to manually disable the accessibility of the \"current label\" with `.accessibilityHidden()` otherwise it will be read out twice in VoiceOver."
           }
         }
       }

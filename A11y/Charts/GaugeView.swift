@@ -14,10 +14,11 @@ struct GaugeView: View {
     @State private var value1 = 0.4
     
     @State private var value2 = 22.0
-    @State private var value3 = 18.0
+    @State private var bpmValue = 80.0
 
     @State private var minValue = 0.0
-    @State private var maxValue = 100.0
+    @State private var batteryMaxValue = 100.0
+    @State private var bpmMaxValue = 200.0
     private let gradient = Gradient(colors: [.green, .yellow, .orange, .red])
 
     
@@ -27,6 +28,7 @@ struct GaugeView: View {
                 VStack(spacing: 32) {
                     
                     Text("linear_gauge_description")
+                        .header()
                         .maxWidthLeading()
                     VStack(spacing: 16) {
                         Gauge(value: value1) {
@@ -50,59 +52,86 @@ struct GaugeView: View {
                         Divider()
                         
                         Text("custom_min_max_linear_gauge")
+                            .header()
                             .maxWidthLeading()
-                        Gauge(value: value2, in: minValue...maxValue) {
+                        Text("double_current_value")
+                            .maxWidthLeading()
+                            .font(.caption)
+                        Gauge(value: value2, in: minValue...batteryMaxValue) {
                             Text("battery_level")
                         } currentValueLabel: {
                             Text(value2.formatted())
+                                .accessibilityHidden(true)
                         } minimumValueLabel: {
                             Text(minValue.formatted())
                         } maximumValueLabel: {
-                            Text(maxValue.formatted())
+                            Text(batteryMaxValue.formatted())
+                        }
+                        
+                        Gauge(value: value2, in: minValue...batteryMaxValue) {
+                            Text("battery_level")
+                        } currentValueLabel: {
+                            Text(value2.formatted())
+                                .accessibilityHidden(true)
+                        } minimumValueLabel: {
+                            Image(systemName: "battery.0percent")
+                        } maximumValueLabel: {
+                            Image(systemName: "battery.100percent")
                         }
                     }
                     
                     VStack(spacing: 16) {
+                        Text(String.localizedString(key: "coming_soon", arguments: String(localized: "circular_gauges")))
+                            .header()
+                            .maxWidthLeading()
+                        /* TODO: Need to look more into accessibility reading percentages
                         Text("circular_gauges_not_dynamic")
+                            .font(.caption)
                             .maxWidthLeading()
                         
-                        Gauge(value: value3, in: minValue...maxValue) {
+                        Gauge(value: bpmValue, in: minValue...bpmMaxValue) {
                             Text("BPM")
+                                .accessibilityLabel("beats_per_minute")
                         } currentValueLabel: {
-                            Text(value3.formatted())
+                            Text(bpmValue.formatted())
+                                .accessibilityHidden(true)
                         } minimumValueLabel: {
                             Text(minValue.formatted())
                         } maximumValueLabel: {
-                            Text(maxValue.formatted())
+                            Text(bpmMaxValue.formatted())
                         }
                         .gaugeStyle(.accessoryCircular)
                         
                         Divider()
                         
                         
-                        Gauge(value: value3, in: minValue...maxValue) {
+                        Gauge(value: bpmValue, in: minValue...bpmMaxValue) {
                             Text("BPM")
+                                .accessibilityLabel("beats_per_minute")
                         } currentValueLabel: {
-                            Text(value3.formatted())
+                            Text(bpmValue.formatted())
                         }
                         .gaugeStyle(.accessoryCircularCapacity)
                         
                         Divider()
                         
-                        Gauge(value: value3, in: minValue...maxValue) {
+                        Gauge(value: bpmValue, in: minValue...bpmMaxValue) {
                             Image(systemName: "heart.fill")
+                                .accessibilityLabel("beats_per_minute")
                                 .foregroundColor(.red)
                         } currentValueLabel: {
-                            Text(value3.formatted())
+                            Text(bpmValue.formatted())
                                 .foregroundColor(Color.green)
+                                .accessibilityHidden(true)
                         } minimumValueLabel: {
                             Text(minValue.formatted())
                                 .foregroundColor(Color.green)
                         } maximumValueLabel: {
-                            Text(maxValue.formatted())
+                            Text(bpmMaxValue.formatted())
                                 .foregroundColor(Color.red)
                         }
                         .gaugeStyle(.accessoryCircular)
+                         */
                     }
                 }
                 .padding(16)
