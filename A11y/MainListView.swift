@@ -21,7 +21,7 @@ struct MainListView: View {
                             BasicNavigationList(itemList: HelpListItem.allCases)
                         }, label: {
                             Image(systemName: "questionmark.circle")
-                                .accessibilityLabel(String(localized: "help_menu"))
+                                .accessibilityLabel(String(localized: "about_menu"))
                         })
                     }
                     

@@ -15,7 +15,14 @@ struct WhatIsThisView: View {
         NavigationStack {
             ScrollView {
                 VStack(spacing: 24) {
-                    Text("what_is_this_description")
+                    Text("about_app1")
+                        .maxWidthLeading()
+                    Text("about_app2")
+                        .maxWidthLeading()
+                    Text("about_app3")
+                        .maxWidthLeading()
+                    Text("about_app4")
+                        .maxWidthLeading()
                 }
                 .padding(16)
             }

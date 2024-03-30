@@ -1,6 +1,76 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "about" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About"
+          }
+        }
+      }
+    },
+    "about_app" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About app"
+          }
+        }
+      }
+    },
+    "about_app1" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I wanted to create an app for developers, designers, or anyone in the mobile app industry to have an easy way to see what native accessibility implementations looked like. No extra fluff of an App’s special theming or custom implementations from internal components to 3rd party libraries."
+          }
+        }
+      }
+    },
+    "about_app2" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For the designers you can see (or hear) what native components are available and what they provide with minimal to no customization (straight out of the box)."
+          }
+        }
+      }
+    },
+    "about_app3" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For developers you can see what APIs are available to use as well as how to use them, and an easy simple app to use as a playground."
+          }
+        }
+      }
+    },
+    "about_app4" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A11y (pronounced Ally) is an open source app that is available on GitHub(%@) at with an MIT License."
+          }
+        }
+      }
+    },
+    "about_menu" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About menu"
+          }
+        }
+      }
+    },
     "about_settings_and_shortcuts" : {
       "localizations" : {
         "en" : {
@@ -53,6 +123,9 @@
         }
       }
     },
+    "bold_text_label" : {
+
+    },
     "BPM" : {
       "comment" : "Abbreviation for beats per minute.",
       "extractionState" : "manual",
@@ -85,8 +158,25 @@
         }
       }
     },
+    "button_press_count" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total button presses: %@"
+          }
+        }
+      }
+    },
     "buttons" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buttons"
+          }
+        }
+      }
     },
     "carousel" : {
       "localizations" : {
@@ -242,6 +332,16 @@
         }
       }
     },
+    "decrease_count" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Decrease count"
+          }
+        }
+      }
+    },
     "delete_announce" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -292,6 +392,9 @@
           }
         }
       }
+    },
+    "font_width_text_label" : {
+
     },
     "gauges" : {
       "comment" : "The UI element.",
@@ -356,28 +459,6 @@
         }
       }
     },
-    "help" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Help"
-          }
-        }
-      }
-    },
-    "help_menu" : {
-      "comment" : "Button label. Go to the help menu",
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Help menu"
-          }
-        }
-      }
-    },
     "helper_slider_label" : {
       "localizations" : {
         "en" : {
@@ -400,18 +481,18 @@
         }
       }
     },
-    "image" : {
+    "images" : {
+
+    },
+    "increase_count" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Image"
+            "value" : "Increase count"
           }
         }
       }
-    },
-    "images" : {
-
     },
     "linear_gauge_description" : {
       "localizations" : {
@@ -569,6 +650,7 @@
       }
     },
     "progress" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -821,22 +903,22 @@
         }
       }
     },
-    "terminology" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Terminology"
-          }
-        }
-      }
-    },
     "text" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Text"
+          }
+        }
+      }
+    },
+    "text_label_input" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Includes text labels and text input fields"
           }
         }
       }
@@ -888,16 +970,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "What is this?"
-          }
-        }
-      }
-    },
-    "what_is_this_description" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "I wanted to create an app for developers, designers, or anyone in the mobile tech industry to have an easy way to see what native accessibility components looked like. To show designers these are what native accessibility features you can have and how they behave and for developers to see what APIs are available as well as how to use them."
           }
         }
       }
