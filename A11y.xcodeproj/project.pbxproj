@@ -10,6 +10,7 @@
 		D846C87F2BAA642B002544C4 /* PickerListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D846C87E2BAA642B002544C4 /* PickerListItem.swift */; };
 		D846C8812BAA6580002544C4 /* MenuPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D846C8802BAA6580002544C4 /* MenuPicker.swift */; };
 		D846C8832BAA6B6C002544C4 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D846C8822BAA6B6C002544C4 /* DatePickerView.swift */; };
+		D86394E62BB7BC9E001B67E4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D86394E52BB7BC9E001B67E4 /* Info.plist */; };
 		D88746ED2B7C5B0B00203819 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D88746EC2B7C5B0B00203819 /* Localizable.xcstrings */; };
 		D895C9DC2BA52E6900F82475 /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895C9DB2BA52E6900F82475 /* Slider.swift */; };
 		D895C9DE2BA52FC400F82475 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895C9DD2BA52FC400F82475 /* View+Extension.swift */; };
@@ -63,6 +64,7 @@
 		D846C87E2BAA642B002544C4 /* PickerListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerListItem.swift; sourceTree = "<group>"; };
 		D846C8802BAA6580002544C4 /* MenuPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPicker.swift; sourceTree = "<group>"; };
 		D846C8822BAA6B6C002544C4 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		D86394E52BB7BC9E001B67E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = A11y/Info.plist; sourceTree = "<group>"; };
 		D88746EC2B7C5B0B00203819 /* Localizable.xcstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		D895C9DB2BA52E6900F82475 /* Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
 		D895C9DD2BA52FC400F82475 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 		D89911582B49EC1200B7165C = {
 			isa = PBXGroup;
 			children = (
+				D86394E52BB7BC9E001B67E4 /* Info.plist */,
 				D89911632B49EC1200B7165C /* A11y */,
 				D89911742B49EC1300B7165C /* A11yTests */,
 				D899117E2B49EC1300B7165C /* A11yUITests */,
@@ -373,6 +376,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D86394E62BB7BC9E001B67E4 /* Info.plist in Resources */,
 				D899116C2B49EC1300B7165C /* Preview Assets.xcassets in Resources */,
 				D89911692B49EC1300B7165C /* Assets.xcassets in Resources */,
 				D88746ED2B7C5B0B00203819 /* Localizable.xcstrings in Resources */,
@@ -515,6 +519,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = A11y/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -572,6 +577,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = A11y/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
