@@ -10,7 +10,6 @@
 		D846C87F2BAA642B002544C4 /* PickerListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D846C87E2BAA642B002544C4 /* PickerListItem.swift */; };
 		D846C8812BAA6580002544C4 /* MenuPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D846C8802BAA6580002544C4 /* MenuPicker.swift */; };
 		D846C8832BAA6B6C002544C4 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D846C8822BAA6B6C002544C4 /* DatePickerView.swift */; };
-		D86394E62BB7BC9E001B67E4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D86394E52BB7BC9E001B67E4 /* Info.plist */; };
 		D88746ED2B7C5B0B00203819 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D88746EC2B7C5B0B00203819 /* Localizable.xcstrings */; };
 		D895C9DC2BA52E6900F82475 /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895C9DB2BA52E6900F82475 /* Slider.swift */; };
 		D895C9DE2BA52FC400F82475 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895C9DD2BA52FC400F82475 /* View+Extension.swift */; };
@@ -376,7 +375,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D86394E62BB7BC9E001B67E4 /* Info.plist in Resources */,
 				D899116C2B49EC1300B7165C /* Preview Assets.xcassets in Resources */,
 				D89911692B49EC1300B7165C /* Assets.xcassets in Resources */,
 				D88746ED2B7C5B0B00203819 /* Localizable.xcstrings in Resources */,
