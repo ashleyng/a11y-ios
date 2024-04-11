@@ -14,7 +14,7 @@ struct MainListView: View {
     
     var body: some View {
         NavigationStack {
-            BasicNavigationList(itemList: MainListItem.allCases)
+            BasicNavigationList(itemList: MainListItem.allCases.sorted())
                 .toolbar {
                     ToolbarItem {
                         NavigationLink(destination: {

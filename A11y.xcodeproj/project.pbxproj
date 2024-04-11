@@ -10,6 +10,9 @@
 		D846C87F2BAA642B002544C4 /* PickerListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D846C87E2BAA642B002544C4 /* PickerListItem.swift */; };
 		D846C8812BAA6580002544C4 /* MenuPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D846C8802BAA6580002544C4 /* MenuPicker.swift */; };
 		D846C8832BAA6B6C002544C4 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D846C8822BAA6B6C002544C4 /* DatePickerView.swift */; };
+		D878CFE52BB71E5F006F4C99 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D878CFE42BB71E5F006F4C99 /* ButtonView.swift */; };
+		D878CFE72BB72397006F4C99 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D878CFE62BB72397006F4C99 /* TextView.swift */; };
+		D87F38642BC778DB006CE3FB /* Comparable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87F38632BC778DB006CE3FB /* Comparable+Extension.swift */; };
 		D88746ED2B7C5B0B00203819 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D88746EC2B7C5B0B00203819 /* Localizable.xcstrings */; };
 		D895C9DC2BA52E6900F82475 /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895C9DB2BA52E6900F82475 /* Slider.swift */; };
 		D895C9DE2BA52FC400F82475 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895C9DD2BA52FC400F82475 /* View+Extension.swift */; };
@@ -64,6 +67,9 @@
 		D846C8802BAA6580002544C4 /* MenuPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPicker.swift; sourceTree = "<group>"; };
 		D846C8822BAA6B6C002544C4 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
 		D86394E52BB7BC9E001B67E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = A11y/Info.plist; sourceTree = "<group>"; };
+		D878CFE42BB71E5F006F4C99 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		D878CFE62BB72397006F4C99 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		D87F38632BC778DB006CE3FB /* Comparable+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Comparable+Extension.swift"; sourceTree = "<group>"; };
 		D88746EC2B7C5B0B00203819 /* Localizable.xcstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		D895C9DB2BA52E6900F82475 /* Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
 		D895C9DD2BA52FC400F82475 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
@@ -236,6 +242,7 @@
 				D895C9DD2BA52FC400F82475 /* View+Extension.swift */,
 				D895C9E02BA5305100F82475 /* SimpleTextView.swift */,
 				D895C9E22BA538B300F82475 /* String+Extension.swift */,
+				D87F38632BC778DB006CE3FB /* Comparable+Extension.swift */,
 			);
 			path = CommonUI;
 			sourceTree = "<group>";
@@ -258,6 +265,8 @@
 				D895C9DB2BA52E6900F82475 /* Slider.swift */,
 				D895C9E42BA53B4F00F82475 /* Toggle.swift */,
 				D8E8BA802BAE58700066C5EF /* StepperView.swift */,
+				D878CFE42BB71E5F006F4C99 /* ButtonView.swift */,
+				D878CFE62BB72397006F4C99 /* TextView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -407,7 +416,9 @@
 				D89911942B49F7BD00B7165C /* BasicNavigationList.swift in Sources */,
 				D895C9DC2BA52E6900F82475 /* Slider.swift in Sources */,
 				D89911902B49F75D00B7165C /* ListItem.swift in Sources */,
+				D87F38642BC778DB006CE3FB /* Comparable+Extension.swift in Sources */,
 				D8CB2D4E2B4E2EB600730BFB /* CollectionViewList.swift in Sources */,
+				D878CFE52BB71E5F006F4C99 /* ButtonView.swift in Sources */,
 				D89911672B49EC1200B7165C /* MainListView.swift in Sources */,
 				D8E8BA862BAE5DEC0066C5EF /* GaugeView.swift in Sources */,
 				D895C9EA2BA5417300F82475 /* RotorHeadings.swift in Sources */,
@@ -420,6 +431,7 @@
 				D899119F2B4A483400B7165C /* ReorderableList.swift in Sources */,
 				D8BEEED22BA76C5100208801 /* ShortcutsView.swift in Sources */,
 				D89911992B49FE9700B7165C /* HelpListItem.swift in Sources */,
+				D878CFE72BB72397006F4C99 /* TextView.swift in Sources */,
 				D895C9E32BA538B300F82475 /* String+Extension.swift in Sources */,
 				D846C8832BAA6B6C002544C4 /* DatePickerView.swift in Sources */,
 				D899119C2B4A1CA800B7165C /* ComponentItem.swift in Sources */,

@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-protocol ListItemNavigation {
+protocol ListItemNavigation: Comparable {
     associatedtype T: View
     var navigationLinkView: T { get }
     static var navTitleString: String { get }
@@ -51,19 +51,19 @@ enum MainListItem: CaseIterable, Identifiable, ListItemNavigation {
     var navigationLinkView: some View {
         switch self {
         case .list:
-            BasicNavigationList(itemList: ListItem.allCases)
+            BasicNavigationList(itemList: ListItem.allCases.sorted())
                 .toAnyView()
         case .components:
-            BasicNavigationList(itemList: ComponentItem.allCases)
+            BasicNavigationList(itemList: ComponentItem.allCases.sorted())
                 .toAnyView()
         case .rotor:
-            BasicNavigationList(itemList: RotorListItem.allCases)
+            BasicNavigationList(itemList: RotorListItem.allCases.sorted())
                 .toAnyView()
 //        case .strings:
 //            SimpleTextView.notImplemented()
 //                .toAnyView()
         case .charts:
-            BasicNavigationList(itemList: ChartListItem.allCases)
+            BasicNavigationList(itemList: ChartListItem.allCases.sorted())
                 .toAnyView()
         }
     }

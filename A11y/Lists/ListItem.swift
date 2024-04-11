@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-enum ListItem: CaseIterable, Identifiable, ListItemNavigation {
+enum ListItem: CaseIterable, Identifiable, ListItemNavigation, Comparable {
     var id : String { UUID().uuidString }
     
     case reorderable

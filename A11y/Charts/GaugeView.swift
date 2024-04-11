@@ -28,7 +28,7 @@ struct GaugeView: View {
                 VStack(spacing: 32) {
                     
                     Text("linear_gauge_description")
-                        .header()
+                        .headline()
                         .maxWidthLeading()
                     VStack(spacing: 16) {
                         Gauge(value: value1) {
@@ -52,7 +52,7 @@ struct GaugeView: View {
                         Divider()
                         
                         Text("custom_min_max_linear_gauge")
-                            .header()
+                            .headline()
                             .maxWidthLeading()
                         Text("double_current_value")
                             .maxWidthLeading()
@@ -82,7 +82,7 @@ struct GaugeView: View {
                     
                     VStack(spacing: 16) {
                         Text(String.localizedString(key: "coming_soon", arguments: String(localized: "circular_gauges")))
-                            .header()
+                            .headline()
                             .maxWidthLeading()
                         /* TODO: Need to look more into accessibility reading percentages
                         Text("circular_gauges_not_dynamic")

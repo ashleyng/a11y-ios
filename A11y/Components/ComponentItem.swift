@@ -26,7 +26,7 @@ enum ComponentItem: CaseIterable, Identifiable, ListItemNavigation {
     var itemTitleString: String {
         switch self {
         case .text:
-            return String(localized: "text")
+            return String(localized: "text_inputs")
         case .button:
             return String(localized: "button")
         case .slider:
@@ -43,22 +43,16 @@ enum ComponentItem: CaseIterable, Identifiable, ListItemNavigation {
     }
     
     var itemDescription: String? {
-        switch self {
-        case .text:
-            return String(localized: "text_label_input")
-        case .button, .slider, .toggle, .picker, .stepper:
-            return nil
-        }
+        return nil
     }
     
     var navigationLinkView: some View {
         switch self {
         case .text:
-            SimpleTextView.notImplemented()
-                .toAnyView()
+            TextView(title: itemTitleString)
                 .toAnyView()
         case .button:
-            SimpleTextView.notImplemented()
+            ButtonView(title: itemTitleString)
                 .toAnyView()
         case .slider:
             SliderA11y(title: itemTitleString)
@@ -67,7 +61,7 @@ enum ComponentItem: CaseIterable, Identifiable, ListItemNavigation {
             ToggleA11y(title: itemTitleString)
                 .toAnyView()
         case .picker:
-            BasicNavigationList(itemList: PickerListItem.allCases)
+            BasicNavigationList(itemList: PickerListItem.allCases.sorted())
                 .toAnyView()
 //        case .progress:
 //            SimpleTextView.notImplemented()

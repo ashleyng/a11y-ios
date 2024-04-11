@@ -16,12 +16,24 @@ extension View {
         modifier(MaxWidthLeadingModifier())
     }
     
-    func header() -> some View {
-        modifier(HeaderModifer())
+    func headline() -> some View {
+        modifier(HeadlineModifer())
+    }
+    
+    func title() -> some View {
+        modifier(TitleModifier())
     }
 }
 
-struct HeaderModifer: ViewModifier {
+struct TitleModifier: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .font(.title)
+            .accessibilityAddTraits(.isHeader)
+    }
+}
+
+struct HeadlineModifer: ViewModifier {
     func body(content: Content) -> some View {
         content
             .font(.headline)

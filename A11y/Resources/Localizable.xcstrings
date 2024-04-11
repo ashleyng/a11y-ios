@@ -123,9 +123,6 @@
         }
       }
     },
-    "bold_text_label" : {
-
-    },
     "BPM" : {
       "comment" : "Abbreviation for beats per minute.",
       "extractionState" : "manual",
@@ -393,8 +390,15 @@
         }
       }
     },
-    "font_width_text_label" : {
-
+    "enter_password" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter password"
+          }
+        }
+      }
     },
     "gauges" : {
       "comment" : "The UI element.",
@@ -465,6 +469,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Values of negative 100 to positive 100"
+          }
+        }
+      }
+    },
+    "hint_text" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hint text"
           }
         }
       }
@@ -903,22 +917,22 @@
         }
       }
     },
-    "text" : {
+    "text_field" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Text"
+            "value" : "Text Fields"
           }
         }
       }
     },
-    "text_label_input" : {
+    "text_inputs" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Includes text labels and text input fields"
+            "value" : "Text Inputs"
           }
         }
       }
