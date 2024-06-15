@@ -38,8 +38,14 @@ struct MultiDatePickerView: View {
             ScrollView {
                 VStack(spacing: 16) {
                     if let dateRange = dateRange {
+                        Text("unbound_date_picker")
+                            .maxWidthLeading()
                         MultiDatePicker("dates_available", selection: $dates1)
                         
+                        Divider()
+                        
+                        Text(String.localizedString(key: "bound_date_picker", arguments: dateRange.formatted()))
+                            .maxWidthLeading()
                         MultiDatePicker("dates_available", selection: $dates2, in: dateRange)
                     }
                 }

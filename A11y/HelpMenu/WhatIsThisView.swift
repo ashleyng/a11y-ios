@@ -23,6 +23,10 @@ struct WhatIsThisView: View {
                         .maxWidthLeading()
                     Text("about_app4")
                         .maxWidthLeading()
+                    if let urlString = URL(string: "https://github.com/ashleyng/a11y-ios")  {
+                        Link(String.localizedString(key: "project_link", arguments: "A11y Example", "Github"), destination: urlString)
+                            .maxWidthLeading()
+                    }
                 }
                 .padding(16)
             }

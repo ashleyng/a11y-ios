@@ -12,6 +12,7 @@ struct ReorderableList: View {
     let title: String
     
     @State private var loremIpsum = [
+        String(localized: "enter_edit_mode"),
         String(localized: "delete_reorder_edit_mode"),
         String(localized: "tap_and_hold"),
         String(localized: "swipe_to_delete"),

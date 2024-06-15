@@ -56,7 +56,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A11y (pronounced Ally) is an open source app that is available on GitHub(%@) at with an MIT License."
+            "value" : "A11y Example (pronounced Ally) is an open source app that is available on Github at with an MIT License."
           }
         }
       }
@@ -119,6 +119,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Beats per minute"
+          }
+        }
+      }
+    },
+    "bound_date_picker" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bounded date picker between %@ "
           }
         }
       }
@@ -345,7 +355,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Delete action will not be announced at all."
+            "value" : "Delete action will not be announced in VoiceOver at all."
           }
         }
       }
@@ -355,7 +365,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "You can delete and reorder while not in edit mode."
+            "value" : "With VoiceOver off, you can delete and reorder while not in edit mode."
           }
         }
       }
@@ -386,6 +396,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Developers will need to manually disable the accessibility of the \"current label\" with `.accessibilityHidden()` otherwise it will be read out twice in VoiceOver."
+          }
+        }
+      }
+    },
+    "enter_edit_mode" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter edit mode by tapping \"Edit\" button in navigation bar."
           }
         }
       }
@@ -519,7 +539,15 @@
       }
     },
     "links" : {
-
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Link"
+          }
+        }
+      }
     },
     "lists" : {
       "comment" : "Label. Navigate to the Lists page",
@@ -674,6 +702,18 @@
         }
       }
     },
+    "project_link" : {
+      "comment" : "Example: \"<app name> on Github\"",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ on %@"
+          }
+        }
+      }
+    },
     "range" : {
       "localizations" : {
         "en" : {
@@ -710,7 +750,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reorder actions will not be announced unless you tap the edit button and enter edit mode."
+            "value" : "Reorder actions will not be announced in VoiceOver unless you enter edit mode."
           }
         }
       }
@@ -901,7 +941,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Swipe to the left to delete or to see delete option."
+            "value" : "With VoiceOver off, swipe to the left to delete or to see delete option."
           }
         }
       }
@@ -912,7 +952,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tap and hold a row to reorder."
+            "value" : "With VoiceOver off, tap and hold a row to reorder."
           }
         }
       }
@@ -973,6 +1013,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toggle label"
+          }
+        }
+      }
+    },
+    "unbound_date_picker" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unbounded date picker"
           }
         }
       }
