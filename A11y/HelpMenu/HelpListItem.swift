@@ -12,32 +12,33 @@ enum HelpListItem: CaseIterable, Identifiable, ListItemNavigation {
     var id : String { UUID().uuidString }
     
     case what
-    case terminology
     case shortcuts
     
     static var navTitleString: String {
-        "Help"
+        String(localized: "about")
     }
     
     var itemTitleString: String {
         switch self {
         case .what:
-            return "What is this?"
-        case .terminology:
-            return "Terminology"
+            return String(localized: "about_app")
         case .shortcuts:
-            return "Accessibility shortcuts"
+            return String(localized: "about_settings_and_shortcuts")
         }
+    }
+    
+    var itemDescription: String? {
+        return nil
     }
     
     var navigationLinkView: some View {
         switch self {
         case .what:
-            EmptyView()
-        case .terminology:
-            EmptyView()
+            WhatIsThisView(title: itemTitleString)
+                .toAnyView()
         case .shortcuts:
-            EmptyView()
+            ShortcutsView(title: String(localized: "settings_and_shortcuts"))
+                .toAnyView()
         }
     }
 }

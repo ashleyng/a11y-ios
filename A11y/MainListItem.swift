@@ -8,11 +8,12 @@
 import Foundation
 import SwiftUI
 
-protocol ListItemNavigation {
+protocol ListItemNavigation: Comparable {
     associatedtype T: View
     var navigationLinkView: T { get }
     static var navTitleString: String { get }
     var itemTitleString: String { get }
+    var itemDescription: String? { get }
 }
 
 enum MainListItem: CaseIterable, Identifiable, ListItemNavigation {
@@ -20,36 +21,50 @@ enum MainListItem: CaseIterable, Identifiable, ListItemNavigation {
     
     case list
     case components
-    case strings
-    case devItems
+//    case strings
+    case rotor
+    case charts
     
     static var navTitleString: String {
-        "Home"
+        String(localized: "home")
     }
     
     var itemTitleString: String {
         switch self {
         case .list:
-            return "Lists"
+            return String(localized: "lists")
         case .components:
-            return "Components"
-        case .strings:
-            return "Strings"
-        case .devItems:
-            return "Dev Items"
+            return String(localized: "components")
+        case .rotor:
+            return String(localized: "rotor")
+//        case .strings:
+//            return String.localizedString(key: "coming_soon", arguments: String(localized: "strings"))
+        case .charts:
+            return String(localized: "charts")
         }
+    }
+    
+    var itemDescription: String? {
+        return nil
     }
     
     var navigationLinkView: some View {
         switch self {
         case .list:
-            BasicNavigationList(itemList: ListItem.allCases)
+            BasicNavigationList(itemList: ListItem.allCases.sorted())
+                .toAnyView()
         case .components:
-            BasicNavigationList(itemList: ListItem.allCases)
-        case .strings:
-            BasicNavigationList(itemList: ListItem.allCases)
-        case .devItems:
-            BasicNavigationList(itemList: ListItem.allCases)
+            BasicNavigationList(itemList: ComponentItem.allCases.sorted())
+                .toAnyView()
+        case .rotor:
+            BasicNavigationList(itemList: RotorListItem.allCases.sorted())
+                .toAnyView()
+//        case .strings:
+//            SimpleTextView.notImplemented()
+//                .toAnyView()
+        case .charts:
+            BasicNavigationList(itemList: ChartListItem.allCases.sorted())
+                .toAnyView()
         }
     }
 }

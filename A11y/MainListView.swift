@@ -8,27 +8,24 @@
 import SwiftUI
 
 struct MainListView: View {
+    
+    @State private var columnVisibility =
+        NavigationSplitViewVisibility.doubleColumn
+    
     var body: some View {
-        if #available(iOS 16.0, *) {
-            NavigationStack {
-                BasicNavigationList(itemList: MainListItem.allCases)
-                    .toolbar {
-                        Button {
-                            
-                        } label: {
-                            NavigationLink(destination: {
-                                BasicNavigationList(itemList: HelpListItem.allCases)
-                            }, label: {
-                                Image(systemName: "questionmark.circle")
-                            })
-                        }
-
+        NavigationStack {
+            BasicNavigationList(itemList: MainListItem.allCases.sorted())
+                .toolbar {
+                    ToolbarItem {
+                        NavigationLink(destination: {
+                            BasicNavigationList(itemList: HelpListItem.allCases)
+                        }, label: {
+                            Image(systemName: "questionmark.circle")
+                                .accessibilityLabel(String(localized: "about_menu"))
+                        })
                     }
-            }
-        } else {
-            NavigationView {
-                BasicNavigationList(itemList: MainListItem.allCases)
-            }
+                    
+                }
         }
     }
 }

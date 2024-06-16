@@ -1,0 +1,1043 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "about" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About"
+          }
+        }
+      }
+    },
+    "about_app" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About app"
+          }
+        }
+      }
+    },
+    "about_app1" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I wanted to create an app for developers, designers, or anyone in the mobile app industry to have an easy way to see what native accessibility implementations looked like. No extra fluff of an App’s special theming or custom implementations from internal components to 3rd party libraries."
+          }
+        }
+      }
+    },
+    "about_app2" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For the designers you can see (or hear) what native components are available and what they provide with minimal to no customization (straight out of the box)."
+          }
+        }
+      }
+    },
+    "about_app3" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For developers you can see what APIs are available to use as well as how to use them, and an easy simple app to use as a playground."
+          }
+        }
+      }
+    },
+    "about_app4" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A11y Example (pronounced Ally) is an open source app that is available on Github at with an MIT License."
+          }
+        }
+      }
+    },
+    "about_menu" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About menu"
+          }
+        }
+      }
+    },
+    "about_settings_and_shortcuts" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About Settings & Shortcuts"
+          }
+        }
+      }
+    },
+    "accessibility_shortcuts" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accessibility Shortcuts"
+          }
+        }
+      }
+    },
+    "basic_pickers" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basic pickers"
+          }
+        }
+      }
+    },
+    "battery_level" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battery Level"
+          }
+        }
+      }
+    },
+    "beats_per_minute" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beats per minute"
+          }
+        }
+      }
+    },
+    "bound_date_picker" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bounded date picker between %@ "
+          }
+        }
+      }
+    },
+    "BPM" : {
+      "comment" : "Abbreviation for beats per minute.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BPM"
+          }
+        }
+      }
+    },
+    "built_in_reordering" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Built-in reordering is not implemented. Developers will have to do a custom implementation"
+          }
+        }
+      }
+    },
+    "button" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "button_press_count" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total button presses: %@"
+          }
+        }
+      }
+    },
+    "buttons" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buttons"
+          }
+        }
+      }
+    },
+    "carousel" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carousel"
+          }
+        }
+      }
+    },
+    "charts" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charts"
+          }
+        }
+      }
+    },
+    "cheese" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cheese"
+          }
+        }
+      }
+    },
+    "circular_gauges" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Circular gauges"
+          }
+        }
+      }
+    },
+    "circular_gauges_not_dynamic" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Circular gauges do not grow with dynamic font sizes."
+          }
+        }
+      }
+    },
+    "collection_view" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Collection View"
+          }
+        }
+      }
+    },
+    "color_picker" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Color Picker"
+          }
+        }
+      }
+    },
+    "coming_soon" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ - Coming soon"
+          }
+        }
+      }
+    },
+    "components" : {
+      "comment" : "Label. Navigate to the UI Components lists",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Components"
+          }
+        }
+      }
+    },
+    "control_center" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can have some accessibility settings within  your Control Center. You can change these settings in Settings -> Control Center. One of the key settings to have here is Text Size."
+          }
+        }
+      }
+    },
+    "current_value" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Current value: %@"
+          }
+        }
+      }
+    },
+    "custom_min_max_linear_gauge" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Linear gauge with custom minimum and maximum values."
+          }
+        }
+      }
+    },
+    "date_picker" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DatePicker"
+          }
+        }
+      }
+    },
+    "date_picker_larger_fonts" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The label for these date pickers are built within the pickers. In larger fonts, the Picker will wrap the label but keep the date components on a single line."
+          }
+        }
+      }
+    },
+    "dates_available" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dates available"
+          }
+        }
+      }
+    },
+    "decrease_count" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Decrease count"
+          }
+        }
+      }
+    },
+    "delete_announce" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete action will not be announced in VoiceOver at all."
+          }
+        }
+      }
+    },
+    "delete_reorder_edit_mode" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "With VoiceOver off, you can delete and reorder while not in edit mode."
+          }
+        }
+      }
+    },
+    "disabled_slider" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Above slider is disabled"
+          }
+        }
+      }
+    },
+    "disabled_toggle" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disabled toggle"
+          }
+        }
+      }
+    },
+    "double_current_value" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Developers will need to manually disable the accessibility of the \"current label\" with `.accessibilityHidden()` otherwise it will be read out twice in VoiceOver."
+          }
+        }
+      }
+    },
+    "enter_edit_mode" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter edit mode by tapping \"Edit\" button in navigation bar."
+          }
+        }
+      }
+    },
+    "enter_password" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter password"
+          }
+        }
+      }
+    },
+    "gauges" : {
+      "comment" : "The UI element.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gauges"
+          }
+        }
+      }
+    },
+    "heading1" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "First header"
+          }
+        }
+      }
+    },
+    "heading2" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Second header"
+          }
+        }
+      }
+    },
+    "heading3" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Third header"
+          }
+        }
+      }
+    },
+    "heading4" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fourth header"
+          }
+        }
+      }
+    },
+    "headings" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Headings"
+          }
+        }
+      }
+    },
+    "helper_slider_label" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Values of negative 100 to positive 100"
+          }
+        }
+      }
+    },
+    "hint_text" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hint text"
+          }
+        }
+      }
+    },
+    "home" : {
+      "comment" : "Title. Home landing page",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Home"
+          }
+        }
+      }
+    },
+    "images" : {
+
+    },
+    "increase_count" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Increase count"
+          }
+        }
+      }
+    },
+    "linear_gauge_description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Linear gauges with built in label options."
+          }
+        }
+      }
+    },
+    "links" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Link"
+          }
+        }
+      }
+    },
+    "lists" : {
+      "comment" : "Label. Navigate to the Lists page",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lists"
+          }
+        }
+      }
+    },
+    "menu_segmented_picker" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menu and segmented control pickers"
+          }
+        }
+      }
+    },
+    "menu_shortcut" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can triple-click the Side button to toggle or show accessibility settings to quickly turn them on/off. To enable or change the settings navigate to Settings -> Accessibility -> Accessibility Shortcut. A key setting to have here is VoiceOver."
+          }
+        }
+      }
+    },
+    "multidate_picker" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MultiDatePicker"
+          }
+        }
+      }
+    },
+    "mushrooms" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mushrooms"
+          }
+        }
+      }
+    },
+    "native_carousel" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Native Carousel iOS 17+ only"
+          }
+        }
+      }
+    },
+    "not_implemented" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not implemented yet. Coming soon."
+          }
+        }
+      }
+    },
+    "olives" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Olives"
+          }
+        }
+      }
+    },
+    "pepperoni" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pepperoni"
+          }
+        }
+      }
+    },
+    "peppers" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peppers"
+          }
+        }
+      }
+    },
+    "picker" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Picker"
+          }
+        }
+      }
+    },
+    "pickers" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pickers"
+          }
+        }
+      }
+    },
+    "pineapple" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pineapple"
+          }
+        }
+      }
+    },
+    "pizza_toppings" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pizza toppings"
+          }
+        }
+      }
+    },
+    "progress" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Progress"
+          }
+        }
+      }
+    },
+    "project_link" : {
+      "comment" : "Example: \"<app name> on Github\"",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ on %@"
+          }
+        }
+      }
+    },
+    "range" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ to %@"
+          }
+        }
+      }
+    },
+    "reduce_motion" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reduce Motion"
+          }
+        }
+      }
+    },
+    "reduce_motion_description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Reduce Motion can be used to disable things such as animation. You can find this settings in Settings -> Accessibility -> Motion."
+          }
+        }
+      }
+    },
+    "reorder_action" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reorder actions will not be announced in VoiceOver unless you enter edit mode."
+          }
+        }
+      }
+    },
+    "reorderable" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reorderable"
+          }
+        }
+      }
+    },
+    "rotor" : {
+      "comment" : "Apple's accessibility Rotor tool",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rotor"
+          }
+        }
+      }
+    },
+    "rotor_dev_heading_helper" : {
+      "comment" : "\"Text\" is the Text class used in SwiftUI",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Developers, to utilize this you need to put the `.isHeader` trait on the Text element"
+          }
+        }
+      }
+    },
+    "rotor_usage" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To use the Rotor, have VoiceOver on. Then you can twist two fingers on the screen like you're turning a dial. Keep turning till you get to the \"Headings\" option. If you do not have the \"Headings\" option you can enable it in the Settings app under Accessibility. Then you can swipe up and down to skip between headings or continue swiping left and right to go to the next item in the hierarchy."
+          }
+        }
+      }
+    },
+    "segemented_tap_and_hold" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The segmented picker does not grow in size, but in larger fonts you can tap and hold one of the items for a larger popup to display."
+          }
+        }
+      }
+    },
+    "settings" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
+        }
+      }
+    },
+    "settings_and_shortcuts" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings & Shortcuts"
+          }
+        }
+      }
+    },
+    "slider" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slider"
+          }
+        }
+      }
+    },
+    "slider_with_label" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Above slider has an inner helper label"
+          }
+        }
+      }
+    },
+    "start_date" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start date"
+          }
+        }
+      }
+    },
+    "start_date_time" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start date and time"
+          }
+        }
+      }
+    },
+    "start_time" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start time"
+          }
+        }
+      }
+    },
+    "step_slider" : {
+      "comment" : "Slider with predefined steps it can select.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stepped Slider"
+          }
+        }
+      }
+    },
+    "stepper" : {
+      "comment" : "The Apple UI element Stepper",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stepper"
+          }
+        }
+      }
+    },
+    "stepper_range_step" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stepper with range %@ and stepping by %@."
+          }
+        }
+      }
+    },
+    "strings" : {
+      "comment" : "Label. Navigate to the String implementation lists",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Strings"
+          }
+        }
+      }
+    },
+    "sub_header1" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subheading"
+          }
+        }
+      }
+    },
+    "swipe_to_delete" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "With VoiceOver off, swipe to the left to delete or to see delete option."
+          }
+        }
+      }
+    },
+    "tap_and_hold" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "With VoiceOver off, tap and hold a row to reorder."
+          }
+        }
+      }
+    },
+    "text_field" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Text Fields"
+          }
+        }
+      }
+    },
+    "text_inputs" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Text Inputs"
+          }
+        }
+      }
+    },
+    "text_size" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Text Size"
+          }
+        }
+      }
+    },
+    "text_size_description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "There are two different text size settings. There is the non-accessibility setting that can be found in Settings -> Display & Brightness -> Text Size. The accessibility version of this (which has a wider range of text sizes) can be found and enabled at Settings -> Accessibility -> Display & Text Size -> Larger Text."
+          }
+        }
+      }
+    },
+    "toggle" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toggle"
+          }
+        }
+      }
+    },
+    "toggle_label" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toggle label"
+          }
+        }
+      }
+    },
+    "unbound_date_picker" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unbounded date picker"
+          }
+        }
+      }
+    },
+    "what_is_this" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What is this?"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
