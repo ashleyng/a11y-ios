@@ -52,7 +52,7 @@ enum ComponentItem: CaseIterable, Identifiable, ListItemNavigation {
     var navigationLinkView: some View {
         switch self {
         case .textInput:
-            TextView(title: itemTitleString)
+            TextInputView(title: itemTitleString)
                 .toAnyView()
         case .textInputForm:
             TextInputFormView(title: itemTitleString)

@@ -16,7 +16,7 @@ struct TextInputFormView: View {
     var body: some View {
         NavigationStack {
             Form {
-                Text("form_style_input")
+                Text("text_input_description")
                 TextField("username", text: $username1)
                 SecureField("password", text: $securedText)
                 TextEditor(text: $textEditor)

@@ -445,21 +445,12 @@
       }
     },
     "enter_password" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enter password"
-          }
-        }
-      }
-    },
-    "form_style_input" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "These text input fields are wrapped in a Form element. This makes the inputs only display one label, and that's the hint label."
           }
         }
       }
@@ -538,6 +529,7 @@
       }
     },
     "hint_text" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -555,6 +547,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Home"
+          }
+        }
+      }
+    },
+    "horizontal_text_input" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Horizontal label-input style"
           }
         }
       }
@@ -870,6 +872,16 @@
         }
       }
     },
+    "required" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Required"
+          }
+        }
+      }
+    },
     "rotor" : {
       "comment" : "Apple's accessibility Rotor tool",
       "extractionState" : "manual",
@@ -1123,11 +1135,23 @@
       }
     },
     "text_field" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Text Fields"
+          }
+        }
+      }
+    },
+    "text_input_description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Text inputs do not have any sort of label, only hint text or hint label. You manually have to add a Text UI element if you want a label."
           }
         }
       }
@@ -1233,6 +1257,16 @@
         }
       }
     },
+    "vertical_text_input" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vertical label-input style"
+          }
+        }
+      }
+    },
     "what_is_this" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1245,7 +1279,14 @@
       }
     },
     "write_message" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Write your message..."
+          }
+        }
+      }
     }
   },
   "version" : "1.0"
