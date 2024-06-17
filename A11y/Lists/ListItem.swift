@@ -15,6 +15,7 @@ enum ListItem: CaseIterable, Identifiable, ListItemNavigation, Comparable {
     case carousel
     case collectionView
     case tables
+    case tableSelection
     
     static var navTitleString: String {
         String(localized: "lists")
@@ -34,6 +35,8 @@ enum ListItem: CaseIterable, Identifiable, ListItemNavigation, Comparable {
             return String(localized: "collection_view")
         case .tables:
             return String(localized: "tables")
+        case .tableSelection:
+            return String(localized: "table_selection")
         }
     }
     
@@ -59,6 +62,9 @@ enum ListItem: CaseIterable, Identifiable, ListItemNavigation, Comparable {
                 .toAnyView()
         case .tables:
             TablesView(title: itemTitleString)
+                .toAnyView()
+        case .tableSelection:
+            TableSelectionView(title: itemTitleString)
                 .toAnyView()
         }
     }

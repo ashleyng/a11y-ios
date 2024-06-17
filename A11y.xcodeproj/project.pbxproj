@@ -10,6 +10,8 @@
 		D846C87F2BAA642B002544C4 /* PickerListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D846C87E2BAA642B002544C4 /* PickerListItem.swift */; };
 		D846C8812BAA6580002544C4 /* MenuPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D846C8802BAA6580002544C4 /* MenuPicker.swift */; };
 		D846C8832BAA6B6C002544C4 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D846C8822BAA6B6C002544C4 /* DatePickerView.swift */; };
+		D85DB4E72C1FCEAD00A8C97D /* TableSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85DB4E62C1FCEAD00A8C97D /* TableSelectionView.swift */; };
+		D85DB4E92C1FD1D200A8C97D /* TextInputFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85DB4E82C1FD1D200A8C97D /* TextInputFormView.swift */; };
 		D878CFE52BB71E5F006F4C99 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D878CFE42BB71E5F006F4C99 /* ButtonView.swift */; };
 		D878CFE72BB72397006F4C99 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D878CFE62BB72397006F4C99 /* TextView.swift */; };
 		D87F38642BC778DB006CE3FB /* Comparable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87F38632BC778DB006CE3FB /* Comparable+Extension.swift */; };
@@ -70,6 +72,8 @@
 		D846C87E2BAA642B002544C4 /* PickerListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerListItem.swift; sourceTree = "<group>"; };
 		D846C8802BAA6580002544C4 /* MenuPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPicker.swift; sourceTree = "<group>"; };
 		D846C8822BAA6B6C002544C4 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		D85DB4E62C1FCEAD00A8C97D /* TableSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableSelectionView.swift; sourceTree = "<group>"; };
+		D85DB4E82C1FD1D200A8C97D /* TextInputFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputFormView.swift; sourceTree = "<group>"; };
 		D86394E52BB7BC9E001B67E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = A11y/Info.plist; sourceTree = "<group>"; };
 		D878CFE42BB71E5F006F4C99 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		D878CFE62BB72397006F4C99 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
@@ -242,6 +246,7 @@
 				D8CB2D4B2B4E275600730BFB /* CarouselList.swift */,
 				D8CB2D4D2B4E2EB600730BFB /* CollectionViewList.swift */,
 				D895A5362C1F975800B40BA7 /* TablesView.swift */,
+				D85DB4E62C1FCEAD00A8C97D /* TableSelectionView.swift */,
 			);
 			path = Lists;
 			sourceTree = "<group>";
@@ -279,6 +284,7 @@
 				D8E8BA802BAE58700066C5EF /* StepperView.swift */,
 				D878CFE42BB71E5F006F4C99 /* ButtonView.swift */,
 				D878CFE62BB72397006F4C99 /* TextView.swift */,
+				D85DB4E82C1FD1D200A8C97D /* TextInputFormView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -441,6 +447,7 @@
 				D8BEEED42BA776A400208801 /* WhatIsThisView.swift in Sources */,
 				D8E8BA812BAE58700066C5EF /* StepperView.swift in Sources */,
 				D846C87F2BAA642B002544C4 /* PickerListItem.swift in Sources */,
+				D85DB4E92C1FD1D200A8C97D /* TextInputFormView.swift in Sources */,
 				D899119F2B4A483400B7165C /* ReorderableList.swift in Sources */,
 				D895A5372C1F975800B40BA7 /* TablesView.swift in Sources */,
 				D8BEEED22BA76C5100208801 /* ShortcutsView.swift in Sources */,
@@ -450,6 +457,7 @@
 				D846C8832BAA6B6C002544C4 /* DatePickerView.swift in Sources */,
 				D899119C2B4A1CA800B7165C /* ComponentItem.swift in Sources */,
 				D8CB2D4C2B4E275600730BFB /* CarouselList.swift in Sources */,
+				D85DB4E72C1FCEAD00A8C97D /* TableSelectionView.swift in Sources */,
 				D89911652B49EC1200B7165C /* A11yApp.swift in Sources */,
 				D895C9E52BA53B4F00F82475 /* Toggle.swift in Sources */,
 				D895C9DE2BA52FC400F82475 /* View+Extension.swift in Sources */,

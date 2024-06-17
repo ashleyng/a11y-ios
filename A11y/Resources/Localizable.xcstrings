@@ -454,6 +454,16 @@
         }
       }
     },
+    "form_style_input" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "These text input fields are wrapped in a Form element. This makes the inputs only display one label, and that's the hint label."
+          }
+        }
+      }
+    },
     "gauges" : {
       "comment" : "The UI element.",
       "extractionState" : "manual",
@@ -702,6 +712,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Olives"
+          }
+        }
+      }
+    },
+    "password" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Password"
           }
         }
       }
@@ -1051,6 +1071,26 @@
         }
       }
     },
+    "table_selection" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Table with row selection"
+          }
+        }
+      }
+    },
+    "table_selection_description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When VoiceOver is on, the table does not automatically let the user know that a row is selectable. It properly announces selected states once something is selected, so instructions or a hint would be necessary for VoiceOver."
+          }
+        }
+      }
+    },
     "tables" : {
       "localizations" : {
         "en" : {
@@ -1088,6 +1128,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Text Fields"
+          }
+        }
+      }
+    },
+    "text_input_forms" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Text input form style"
           }
         }
       }
@@ -1173,6 +1223,16 @@
         }
       }
     },
+    "username" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Username"
+          }
+        }
+      }
+    },
     "what_is_this" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1183,6 +1243,9 @@
           }
         }
       }
+    },
+    "write_message" : {
+
     }
   },
   "version" : "1.0"

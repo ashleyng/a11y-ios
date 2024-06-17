@@ -17,8 +17,6 @@ struct TextView: View {
     @State private var nameComponents1 = PersonNameComponents()
     @State private var nameComponents2 = PersonNameComponents()
 
-    
-    
     var body: some View {
         NavigationStack {
             ScrollView {
