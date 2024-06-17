@@ -10,47 +10,30 @@ import SwiftUI
 struct MenuPicker: View {
     
     let title: String
-    
-    enum PizzaToppings: String, CaseIterable, Identifiable {
-        case cheese, pepperoni, mushrooms, peppers, olives, pineapple
-        
-        var id: Self { self }
-        
-        var stringKey: String.LocalizationValue {
-            switch self {
-            case .cheese:
-                "cheese"
-            case .pepperoni:
-                "pepperoni"
-            case .mushrooms:
-                "mushrooms"
-            case .peppers:
-                "peppers"
-            case .olives:
-                "olives"
-            case .pineapple:
-                "pineapple"
-            }
-        }
-        
-        static var smallerList: [PizzaToppings] = [.cheese, .peppers, .pineapple]
-    }
-
 
     @State private var selected1: PizzaToppings = .cheese
     @State private var selected2: PizzaToppings = .cheese
-
     
     var body: some View {
         NavigationStack {
             ScrollView {
                 VStack(spacing: 16) {
+                    Text("dropdown_picker")
+                        .maxWidthLeading()
+                        .title()
                     Picker("pizza_toppings", selection: $selected1) {
                         ForEach(PizzaToppings.allCases) { toppings in
                             Text(String(localized: toppings.stringKey))
                         }
                     }
                     
+                    DividerSpacerView()
+                    
+                    Text("segmented_picker")
+                        .maxWidthLeading()
+                        .title()
+                    Text("segemented_tap_and_hold")
+                        .maxWidthLeading()
                     VStack {
                         Picker("pizza_toppings", selection: $selected2) {
                             ForEach(PizzaToppings.smallerList) { topping in
@@ -58,8 +41,6 @@ struct MenuPicker: View {
                             }
                         }
                         .pickerStyle(.segmented)
-                        Text("segemented_tap_and_hold")
-                            .maxWidthLeading()
                     }
                 }
                 .padding(16)

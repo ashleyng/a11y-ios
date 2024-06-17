@@ -41,21 +41,21 @@ struct DatePickerView: View {
                     if let dateRange = dateRange {
                         VStack {
                             Text("date_picker_larger_fonts")
-                            Divider()
+                            DividerSpacerView()
                             DatePicker(
                                 "start_date_time",
                                 selection: $date1,
                                 in: dateRange,
                                 displayedComponents: [.date, .hourAndMinute]
                             )
-                            Divider()
+                            DividerSpacerView()
                             DatePicker(
                                 "start_time",
                                 selection: $date2,
                                 in: dateRange,
                                 displayedComponents: [.hourAndMinute]
                             )
-                            Divider()
+                            DividerSpacerView()
                             DatePicker(
                                 "start_date",
                                 selection: $date3,

@@ -35,21 +35,21 @@ struct GaugeView: View {
                             Text("battery_level")
                         }
                         
-                        Divider()
+                        DividerSpacerView()
                         
                         Gauge(value: value1) {
                             Text("battery_level")
                         }
                         .gaugeStyle(.accessoryLinear)
                         
-                        Divider()
+                        DividerSpacerView()
                         
                         Gauge(value: value1) {
                             Text("battery_level")
                         }
                         .gaugeStyle(.accessoryLinearCapacity)
                         
-                        Divider()
+                        DividerSpacerView()
                         
                         Text("custom_min_max_linear_gauge")
                             .headline()

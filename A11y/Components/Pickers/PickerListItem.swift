@@ -14,6 +14,7 @@ enum PickerListItem: CaseIterable, Identifiable, ListItemNavigation {
     case datePicker
     case multidatePicker
     case colorPicker
+    case listRowPicker
     
     static var navTitleString: String {
         String(localized: "pickers")
@@ -29,6 +30,8 @@ enum PickerListItem: CaseIterable, Identifiable, ListItemNavigation {
             return String(localized: "multidate_picker")
         case .colorPicker:
             return String(localized: "color_picker")
+        case .listRowPicker:
+            return String(localized: "list_row_picker")
         }
     }
     
@@ -41,6 +44,8 @@ enum PickerListItem: CaseIterable, Identifiable, ListItemNavigation {
         case .multidatePicker:
             return nil
         case .colorPicker:
+            return nil
+        case .listRowPicker:
             return nil
         }
     }
@@ -58,6 +63,9 @@ enum PickerListItem: CaseIterable, Identifiable, ListItemNavigation {
                 .toAnyView()
         case .colorPicker:
             ColorPickerView(title: itemTitleString)
+                .toAnyView()
+        case .listRowPicker:
+            ListRowPickerView(title: itemTitleString)
                 .toAnyView()
         }
     }

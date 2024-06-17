@@ -128,7 +128,18 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bounded date picker between %@ "
+            "value" : "Bounded date picker"
+          }
+        }
+      }
+    },
+    "bounded_date_range" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date range of: %@"
           }
         }
       }
@@ -171,6 +182,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Total button presses: %@"
+          }
+        }
+      }
+    },
+    "button_style_descriptions" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Each button style does not change the accessibility of the button (particularly VoiceOver) unless manually implemented by the developer. Each of these buttons announce the label given to it (including the icon-only button), and that the element is a button. The buttons will also automatically wrap the text labels."
           }
         }
       }
@@ -274,7 +295,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Components"
+            "value" : "UI Components"
           }
         }
       }
@@ -375,7 +396,17 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Above slider is disabled"
+            "value" : "Disabled Slider"
+          }
+        }
+      }
+    },
+    "disabled_slider_description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The system announces it's adjustable even though it's disabled."
           }
         }
       }
@@ -399,6 +430,9 @@
           }
         }
       }
+    },
+    "dropdown_picker" : {
+
     },
     "enter_edit_mode" : {
       "localizations" : {
@@ -528,6 +562,17 @@
         }
       }
     },
+    "increments_of" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stepped in increments of %@"
+          }
+        }
+      }
+    },
     "linear_gauge_description" : {
       "localizations" : {
         "en" : {
@@ -549,6 +594,26 @@
         }
       }
     },
+    "list_row_picker" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "List row picker"
+          }
+        }
+      }
+    },
+    "list_row_style_picker" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The list row style (right and left items) is automatically applied when a picker is put into a list. The accessibility text is also automatically handled for this component."
+          }
+        }
+      }
+    },
     "lists" : {
       "comment" : "Label. Navigate to the Lists page",
       "extractionState" : "manual",
@@ -556,7 +621,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Lists"
+            "value" : "Lists, grids, and tables"
           }
         }
       }
@@ -617,6 +682,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Not implemented yet. Coming soon."
+          }
+        }
+      }
+    },
+    "num_votes" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Number of Votes"
           }
         }
       }
@@ -724,6 +799,16 @@
         }
       }
     },
+    "rating" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rating"
+          }
+        }
+      }
+    },
     "reduce_motion" : {
       "localizations" : {
         "en" : {
@@ -772,7 +857,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Rotor"
+            "value" : "Rotor Usage"
           }
         }
       }
@@ -805,6 +890,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The segmented picker does not grow in size, but in larger fonts you can tap and hold one of the items for a larger popup to display."
+          }
+        }
+      }
+    },
+    "segmented_picker" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Segmented picker control"
           }
         }
       }
@@ -844,7 +939,17 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Above slider has an inner helper label"
+            "value" : "Slider with label"
+          }
+        }
+      }
+    },
+    "slider_with_label_description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slider has an inner helper label manually added to it. Turn on VoiceOver and focus on the slider to hear the help text."
           }
         }
       }
@@ -946,6 +1051,26 @@
         }
       }
     },
+    "tables" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tables"
+          }
+        }
+      }
+    },
+    "tables_ipad_only" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tables will only display the first column on iPhones. View on a tablet to see the full table."
+          }
+        }
+      }
+    },
     "tap_and_hold" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1017,12 +1142,33 @@
         }
       }
     },
+    "topping" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Topping"
+          }
+        }
+      }
+    },
     "unbound_date_picker" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Unbounded date picker"
+          }
+        }
+      }
+    },
+    "use_with_rotor" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "It's best to utilize the next items with VoiceOver on. "
           }
         }
       }
