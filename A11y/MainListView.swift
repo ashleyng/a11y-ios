@@ -14,20 +14,57 @@ struct MainListView: View {
     
     var body: some View {
         NavigationStack {
-            BasicNavigationList(
-                itemList: MainListItem.allCases.sorted(),
-                descriptionHeaderText: String(localized: "app_best_use"))
-                .toolbar {
-                    ToolbarItem {
-                        NavigationLink(destination: {
-                            BasicNavigationList(itemList: HelpListItem.allCases)
-                        }, label: {
-                            Image(systemName: "questionmark.circle")
-                                .accessibilityLabel(String(localized: "about_menu"))
-                        })
-                    }
-                    
+            List {
+                Text("app_best_use")
+                
+                chartListView
+                listItemView
+                componentItemView
+                rotorItemView
+            }
+            .toolbar {
+                ToolbarItem {
+                    NavigationLink(destination: {
+                        BasicNavigationList(itemList: HelpListItem.allCases)
+                    }, label: {
+                        Image(systemName: "questionmark.circle")
+                            .accessibilityLabel(String(localized: "about_menu"))
+                    })
                 }
+            }
+            .navigationTitle(String(localized: "home"))
+        }
+    }
+    
+    private var chartListView: some View {
+        Section(header: Text(ChartListItem.navTitleString)) {
+            ForEach(ChartListItem.allCases.sorted()) { item in
+                ItemNavigationRow(item: item)
+            }
+        }
+    }
+    
+    private var listItemView: some View {
+        Section(header: Text(ListItem.navTitleString)) {
+            ForEach(ListItem.allCases.sorted()) { item in
+                ItemNavigationRow(item: item)
+            }
+        }
+    }
+    
+    private var rotorItemView: some View {
+        Section(header: Text(RotorListItem.navTitleString)) {
+            ForEach(RotorListItem.allCases.sorted()) { item in
+                ItemNavigationRow(item: item)
+            }
+        }
+    }
+    
+    private var componentItemView: some View {
+        Section(header: Text(ComponentItem.navTitleString)) {
+            ForEach(ComponentItem.allCases.sorted()) { item in
+                ItemNavigationRow(item: item)
+            }
         }
     }
 }

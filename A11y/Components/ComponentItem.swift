@@ -37,7 +37,7 @@ enum ComponentItem: CaseIterable, Identifiable, ListItemNavigation {
         case .toggle:
             return String(localized: "toggle")
         case .picker:
-            return String(localized: "picker")
+            return String(localized: "pickers")
 //        case .progress:
 //            return String.localizedString(key: "coming_soon", arguments: String(localized: "progress"))
         case .stepper:

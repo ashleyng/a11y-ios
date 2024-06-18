@@ -491,7 +491,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Gauges"
+            "value" : "Linear gauges"
           }
         }
       }
@@ -591,7 +591,14 @@
       }
     },
     "images" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Images"
+          }
+        }
+      }
     },
     "increase_count" : {
       "localizations" : {
@@ -788,6 +795,7 @@
       }
     },
     "picker" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
