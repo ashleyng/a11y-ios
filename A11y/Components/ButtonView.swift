@@ -16,37 +16,40 @@ struct ButtonView: View {
         NavigationStack {
             ScrollView {
                 VStack(spacing: 16) {
+                    
+                    Text("button_style_descriptions")
+                    
                     Text(String.localizedString(key: "button_press_count", arguments: buttonPresses.formatted()))
                         .maxWidthLeading()
-                    
-                    Button(action: increaseCountPressed) {
-                        Text("increase_count")
-                    }
-                    
-                    Button(action: increaseCountPressed) {
-                        Label("increase_count", systemImage: "arrowshape.up")
-                    }
-                    .buttonStyle(.bordered)
                     
                     Button("increase_count", systemImage: "arrowshape.up", action: increaseCountPressed)
                         .labelStyle(.iconOnly)
                     
-                    Button("decrease_count", role: .destructive, action: decreseCountPressed)
-                    
-                    Button(action: decreseCountPressed) {
-                        Label("decrease_count", systemImage: "arrowshape.down")
-                    }
-                    .buttonStyle(.borderedProminent)
                     
                     Button(action: decreseCountPressed) {
                         Label("decrease_count", systemImage: "arrowshape.down")
                     }
                     .buttonStyle(.borderless)
                     
-                    Button("decrease_count", systemImage: "arrowshape.down", action: increaseCountPressed)
+                    HStack {
+                        Button(action: increaseCountPressed) {
+                            Text("increase_count")
+                        }
+                        
+                        Button("decrease_count", role: .destructive, action: decreseCountPressed)
+                    }
+                    
+                    HStack {
+                        Button(action: increaseCountPressed) {
+                            Label("increase_count", systemImage: "arrowshape.up")
+                        }
+                        .buttonStyle(.borderedProminent)
+                        
+                        Button(action: decreseCountPressed) {
+                            Label("decrease_count", systemImage: "arrowshape.down")
+                        }
                         .buttonStyle(.bordered)
-                        .labelStyle(.iconOnly)
-                
+                    }
                 }
                 .padding(16)
             }

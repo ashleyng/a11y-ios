@@ -11,7 +11,8 @@ import SwiftUI
 enum ComponentItem: CaseIterable, Identifiable, ListItemNavigation {
     var id : String { UUID().uuidString }
     
-    case text
+    case textInput
+    case textInputForm
     case button
     case slider
     case toggle
@@ -25,8 +26,10 @@ enum ComponentItem: CaseIterable, Identifiable, ListItemNavigation {
     
     var itemTitleString: String {
         switch self {
-        case .text:
+        case .textInput:
             return String(localized: "text_inputs")
+        case .textInputForm:
+            return String(localized: "text_input_forms")
         case .button:
             return String(localized: "button")
         case .slider:
@@ -48,8 +51,11 @@ enum ComponentItem: CaseIterable, Identifiable, ListItemNavigation {
     
     var navigationLinkView: some View {
         switch self {
-        case .text:
-            TextView(title: itemTitleString)
+        case .textInput:
+            TextInputView(title: itemTitleString)
+                .toAnyView()
+        case .textInputForm:
+            TextInputFormView(title: itemTitleString)
                 .toAnyView()
         case .button:
             ButtonView(title: itemTitleString)

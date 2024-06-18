@@ -14,7 +14,9 @@ struct MainListView: View {
     
     var body: some View {
         NavigationStack {
-            BasicNavigationList(itemList: MainListItem.allCases.sorted())
+            BasicNavigationList(
+                itemList: MainListItem.allCases.sorted(),
+                descriptionHeaderText: String(localized: "app_best_use"))
                 .toolbar {
                     ToolbarItem {
                         NavigationLink(destination: {

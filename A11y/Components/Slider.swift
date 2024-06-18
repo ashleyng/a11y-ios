@@ -20,21 +20,38 @@ struct SliderA11y: View {
             ScrollView {
                 VStack(spacing: 16) {
                     VStack {
+                        Text("slider_with_label")
+                            .maxWidthLeading()
+                            .title()
+                        
+                        Text("slider_with_label_description")
                         Slider(value: $value1, in: -100...100, label: {
                             Text("helper_slider_label")
                         })
-                        Text("slider_with_label")
-                        
-                    }
-                    VStack {
-                        Slider(value: $value2, in: 0...1)
-                            .disabled(true)
-                        Text("disabled_slider")
                     }
                     
+                    DividerSpacerView()
+                    
                     VStack {
-                        Slider(value: $value3, in: 0...100, step: 10)
                         Text("step_slider")
+                            .maxWidthLeading()
+                            .title()
+                        Text(String.localizedString(key: "increments_of", arguments: "10"))
+                            .maxWidthLeading()
+                        
+                        Slider(value: $value3, in: 0...100, step: 10)
+                    }
+                    
+                    DividerSpacerView()
+                    
+                    VStack {
+                        Text("disabled_slider")
+                            .maxWidthLeading()
+                            .title()
+                        Text("disabled_slider_description")
+                            .maxWidthLeading()
+                        Slider(value: $value2, in: 0...1)
+                            .disabled(true)
                     }
                 }
                 .padding(16)

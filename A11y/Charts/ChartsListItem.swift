@@ -11,7 +11,8 @@ enum ChartListItem: CaseIterable, Identifiable, ListItemNavigation {
     var id : String { UUID().uuidString }
     
     case charts
-    case gauges
+    case linearGauges
+    case circularGauges
     
     static var navTitleString: String {
         String(localized: "charts")
@@ -19,8 +20,10 @@ enum ChartListItem: CaseIterable, Identifiable, ListItemNavigation {
     
     var itemTitleString: String {
         switch self {
-        case .gauges:
+        case .linearGauges:
             return String(localized: "gauges")
+        case .circularGauges:
+            return String(localized: "circular_gauges")
         case .charts:
             return String.localizedString(key: "coming_soon", arguments: String(localized: "charts"))
         }
@@ -32,8 +35,11 @@ enum ChartListItem: CaseIterable, Identifiable, ListItemNavigation {
     
     var navigationLinkView: some View {
         switch self {
-        case .gauges:
-           GaugeView(title: itemTitleString)
+        case .linearGauges:
+           LinearGaugeView(title: itemTitleString)
+                .toAnyView()
+        case .circularGauges:
+            CircularGaugesView(title: itemTitleString)
                 .toAnyView()
         case .charts:
             SimpleTextView.notImplemented()

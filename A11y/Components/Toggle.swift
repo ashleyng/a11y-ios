@@ -19,6 +19,9 @@ struct ToggleA11y: View {
         NavigationStack {
             ScrollView {
                 VStack(spacing: 16) {
+                    Text("toggle_description")
+                        .maxWidthLeading()
+                    
                     Toggle(isOn: $isOn1, label: {
                         Text("toggle_label")
                     })

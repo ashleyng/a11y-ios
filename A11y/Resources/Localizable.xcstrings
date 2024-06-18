@@ -92,6 +92,16 @@
         }
       }
     },
+    "app_best_use" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This app is best used and experienced with accessibility settings on. Either VoiceOver, Larger Font Sizes, and/or Reduce Motions Settings to name a few."
+          }
+        }
+      }
+    },
     "basic_pickers" : {
       "localizations" : {
         "en" : {
@@ -128,7 +138,18 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bounded date picker between %@ "
+            "value" : "Bounded date picker"
+          }
+        }
+      }
+    },
+    "bounded_date_range" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date range of: %@"
           }
         }
       }
@@ -171,6 +192,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Total button presses: %@"
+          }
+        }
+      }
+    },
+    "button_style_descriptions" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Each button style does not change the accessibility of the button (particularly VoiceOver) unless manually implemented by the developer. Each of these buttons announce the label given to it (including the icon-only button), and that the element is a button. The buttons will also automatically wrap the text labels."
           }
         }
       }
@@ -225,13 +256,32 @@
         }
       }
     },
-    "circular_gauges_not_dynamic" : {
-      "extractionState" : "stale",
+    "circular_gauges_example" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Circular gauges do not grow with dynamic font sizes."
+            "value" : "These charts show the minimum and maximum values for an obtuse angle. "
+          }
+        }
+      }
+    },
+    "circular_gauges_not_dynamic" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Circular gauge size are unable to be changed. The values as well as the size of the gauge do not grow with dynamic font sizes."
+          }
+        }
+      }
+    },
+    "circular_gauges_voiceover_note" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "With VoiceOver on, you'll notice that the gauges announce a percent value. That is done automatically, nothing is being set programmatically."
           }
         }
       }
@@ -274,7 +324,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Components"
+            "value" : "UI Components"
           }
         }
       }
@@ -375,7 +425,17 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Above slider is disabled"
+            "value" : "Disabled Slider"
+          }
+        }
+      }
+    },
+    "disabled_slider_description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The system announces it's adjustable even though it's disabled."
           }
         }
       }
@@ -395,10 +455,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Developers will need to manually disable the accessibility of the \"current label\" with `.accessibilityHidden()` otherwise it will be read out twice in VoiceOver."
+            "value" : "Developers will need add `.accessibilityHidden()` to whatever text value they put in the `currentValueLabel` otherwise VoiceOver will announce this twice."
           }
         }
       }
+    },
+    "dropdown_picker" : {
+
     },
     "enter_edit_mode" : {
       "localizations" : {
@@ -411,6 +474,7 @@
       }
     },
     "enter_password" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -494,6 +558,7 @@
       }
     },
     "hint_text" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -515,6 +580,16 @@
         }
       }
     },
+    "horizontal_text_input" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Horizontal label-input style"
+          }
+        }
+      }
+    },
     "images" : {
 
     },
@@ -528,12 +603,23 @@
         }
       }
     },
+    "increments_of" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stepped in increments of %@"
+          }
+        }
+      }
+    },
     "linear_gauge_description" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Linear gauges with built in label options."
+            "value" : "Linear gauges have a built in label options that get announced when VoiceOver is on even though the label might not be visually apparent. The different gauge styles have no affect on the VoiceOver aspect of accessibility, they all announce in the same way."
           }
         }
       }
@@ -549,6 +635,26 @@
         }
       }
     },
+    "list_row_picker" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "List row picker"
+          }
+        }
+      }
+    },
+    "list_row_style_picker" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The list row style (right and left items) is automatically applied when a picker is put into a list. The accessibility text is also automatically handled for this component."
+          }
+        }
+      }
+    },
     "lists" : {
       "comment" : "Label. Navigate to the Lists page",
       "extractionState" : "manual",
@@ -556,7 +662,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Lists"
+            "value" : "Lists, grids, and tables"
           }
         }
       }
@@ -621,12 +727,42 @@
         }
       }
     },
+    "num_votes" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Number of Votes"
+          }
+        }
+      }
+    },
+    "obtuse_angle" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtuse angle"
+          }
+        }
+      }
+    },
     "olives" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Olives"
+          }
+        }
+      }
+    },
+    "password" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Password"
           }
         }
       }
@@ -724,6 +860,16 @@
         }
       }
     },
+    "rating" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rating"
+          }
+        }
+      }
+    },
     "reduce_motion" : {
       "localizations" : {
         "en" : {
@@ -765,6 +911,16 @@
         }
       }
     },
+    "required" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Required"
+          }
+        }
+      }
+    },
     "rotor" : {
       "comment" : "Apple's accessibility Rotor tool",
       "extractionState" : "manual",
@@ -772,7 +928,17 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Rotor"
+            "value" : "Rotor Usage"
+          }
+        }
+      }
+    },
+    "rotor_best_use_case" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "These items are best used with VoiceOver on."
           }
         }
       }
@@ -805,6 +971,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The segmented picker does not grow in size, but in larger fonts you can tap and hold one of the items for a larger popup to display."
+          }
+        }
+      }
+    },
+    "segmented_picker" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Segmented picker control"
           }
         }
       }
@@ -844,7 +1020,17 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Above slider has an inner helper label"
+            "value" : "Slider with label"
+          }
+        }
+      }
+    },
+    "slider_with_label_description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slider has an inner helper label manually added to it. Turn on VoiceOver and focus on the slider to hear the help text."
           }
         }
       }
@@ -946,6 +1132,46 @@
         }
       }
     },
+    "table_selection" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Table with row selection"
+          }
+        }
+      }
+    },
+    "table_selection_description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When VoiceOver is on, the table does not automatically let the user know that a row is selectable. It properly announces selected states once something is selected, so instructions or a hint would be necessary for VoiceOver."
+          }
+        }
+      }
+    },
+    "tables" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tables"
+          }
+        }
+      }
+    },
+    "tables_ipad_only" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tables will only display the first column on iPhones. View on a tablet to see the full table."
+          }
+        }
+      }
+    },
     "tap_and_hold" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -958,11 +1184,33 @@
       }
     },
     "text_field" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Text Fields"
+          }
+        }
+      }
+    },
+    "text_input_description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Text inputs do not have any sort of label, only hint text or hint label. You manually have to add a Text UI element if you want a label."
+          }
+        }
+      }
+    },
+    "text_input_forms" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Text input form style"
           }
         }
       }
@@ -1007,12 +1255,32 @@
         }
       }
     },
+    "toggle_description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When VoiceOver is on, VoiceOver will automatically group the toggle and label together if you use the Toggle element."
+          }
+        }
+      }
+    },
     "toggle_label" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toggle label"
+          }
+        }
+      }
+    },
+    "topping" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Topping"
           }
         }
       }
@@ -1027,6 +1295,37 @@
         }
       }
     },
+    "use_with_rotor" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "It's best to utilize the next items with VoiceOver on. "
+          }
+        }
+      }
+    },
+    "username" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Username"
+          }
+        }
+      }
+    },
+    "vertical_text_input" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vertical label-input style"
+          }
+        }
+      }
+    },
     "what_is_this" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1034,6 +1333,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "What is this?"
+          }
+        }
+      }
+    },
+    "write_message" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Write your message..."
           }
         }
       }

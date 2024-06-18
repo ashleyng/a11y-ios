@@ -40,12 +40,17 @@ struct MultiDatePickerView: View {
                     if let dateRange = dateRange {
                         Text("unbound_date_picker")
                             .maxWidthLeading()
+                            .title()
                         MultiDatePicker("dates_available", selection: $dates1)
                         
-                        Divider()
+                        DividerSpacerView()
                         
-                        Text(String.localizedString(key: "bound_date_picker", arguments: dateRange.formatted()))
+                        Text("bound_date_picker")
                             .maxWidthLeading()
+                            .title()
+                        Text(String.localizedString(key: "bounded_date_range", arguments: dateRange.formatted()))
+                            .maxWidthLeading()
+                        
                         MultiDatePicker("dates_available", selection: $dates2, in: dateRange)
                     }
                 }
