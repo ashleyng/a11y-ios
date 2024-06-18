@@ -57,7 +57,9 @@ enum MainListItem: CaseIterable, Identifiable, ListItemNavigation {
             BasicNavigationList(itemList: ComponentItem.allCases.sorted())
                 .toAnyView()
         case .rotor:
-            BasicNavigationList(itemList: RotorListItem.allCases.sorted())
+            BasicNavigationList(
+                itemList: RotorListItem.allCases.sorted(),
+                descriptionHeaderText: RotorListItem.descriptionHeaderString)
                 .toAnyView()
 //        case .strings:
 //            SimpleTextView.notImplemented()

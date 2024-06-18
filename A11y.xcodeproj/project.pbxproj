@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D842AC222C1FDCA60061BCDE /* CircularGaugesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D842AC212C1FDCA60061BCDE /* CircularGaugesView.swift */; };
 		D846C87F2BAA642B002544C4 /* PickerListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D846C87E2BAA642B002544C4 /* PickerListItem.swift */; };
 		D846C8812BAA6580002544C4 /* MenuPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D846C8802BAA6580002544C4 /* MenuPicker.swift */; };
 		D846C8832BAA6B6C002544C4 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D846C8822BAA6B6C002544C4 /* DatePickerView.swift */; };
@@ -48,7 +49,7 @@
 		D8E8BA7F2BAE567E0066C5EF /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E8BA7E2BAE567E0066C5EF /* ColorPickerView.swift */; };
 		D8E8BA812BAE58700066C5EF /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E8BA802BAE58700066C5EF /* StepperView.swift */; };
 		D8E8BA842BAE5D6E0066C5EF /* ChartsListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E8BA832BAE5D6E0066C5EF /* ChartsListItem.swift */; };
-		D8E8BA862BAE5DEC0066C5EF /* GaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E8BA852BAE5DEC0066C5EF /* GaugeView.swift */; };
+		D8E8BA862BAE5DEC0066C5EF /* LinearGaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E8BA852BAE5DEC0066C5EF /* LinearGaugeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D842AC212C1FDCA60061BCDE /* CircularGaugesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularGaugesView.swift; sourceTree = "<group>"; };
 		D846C87E2BAA642B002544C4 /* PickerListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerListItem.swift; sourceTree = "<group>"; };
 		D846C8802BAA6580002544C4 /* MenuPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPicker.swift; sourceTree = "<group>"; };
 		D846C8822BAA6B6C002544C4 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
@@ -114,7 +116,7 @@
 		D8E8BA7E2BAE567E0066C5EF /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
 		D8E8BA802BAE58700066C5EF /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
 		D8E8BA832BAE5D6E0066C5EF /* ChartsListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsListItem.swift; sourceTree = "<group>"; };
-		D8E8BA852BAE5DEC0066C5EF /* GaugeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeView.swift; sourceTree = "<group>"; };
+		D8E8BA852BAE5DEC0066C5EF /* LinearGaugeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGaugeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -293,7 +295,8 @@
 			isa = PBXGroup;
 			children = (
 				D8E8BA832BAE5D6E0066C5EF /* ChartsListItem.swift */,
-				D8E8BA852BAE5DEC0066C5EF /* GaugeView.swift */,
+				D8E8BA852BAE5DEC0066C5EF /* LinearGaugeView.swift */,
+				D842AC212C1FDCA60061BCDE /* CircularGaugesView.swift */,
 			);
 			path = Charts;
 			sourceTree = "<group>";
@@ -432,13 +435,14 @@
 				D8E8BA7D2BAE55820066C5EF /* MultiDatePickerView.swift in Sources */,
 				D8E8BA842BAE5D6E0066C5EF /* ChartsListItem.swift in Sources */,
 				D89911942B49F7BD00B7165C /* BasicNavigationList.swift in Sources */,
+				D842AC222C1FDCA60061BCDE /* CircularGaugesView.swift in Sources */,
 				D895C9DC2BA52E6900F82475 /* Slider.swift in Sources */,
 				D89911902B49F75D00B7165C /* ListItem.swift in Sources */,
 				D87F38642BC778DB006CE3FB /* Comparable+Extension.swift in Sources */,
 				D8CB2D4E2B4E2EB600730BFB /* CollectionViewList.swift in Sources */,
 				D878CFE52BB71E5F006F4C99 /* ButtonView.swift in Sources */,
 				D89911672B49EC1200B7165C /* MainListView.swift in Sources */,
-				D8E8BA862BAE5DEC0066C5EF /* GaugeView.swift in Sources */,
+				D8E8BA862BAE5DEC0066C5EF /* LinearGaugeView.swift in Sources */,
 				D895A5312C1F8EF200B40BA7 /* DividerSpacerView.swift in Sources */,
 				D895C9EA2BA5417300F82475 /* RotorHeadings.swift in Sources */,
 				D895C9E12BA5305100F82475 /* SimpleTextView.swift in Sources */,

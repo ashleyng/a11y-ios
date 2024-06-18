@@ -92,6 +92,16 @@
         }
       }
     },
+    "app_best_use" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This app is best used with accessibility settings on. Either VoiceOver, Larger Font Sizes, and/or Reduce Motions Settings to name a few."
+          }
+        }
+      }
+    },
     "basic_pickers" : {
       "localizations" : {
         "en" : {
@@ -246,13 +256,32 @@
         }
       }
     },
-    "circular_gauges_not_dynamic" : {
-      "extractionState" : "stale",
+    "circular_gauges_example" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Circular gauges do not grow with dynamic font sizes."
+            "value" : "These charts show the minimum and maximum values for an obtuse angle. "
+          }
+        }
+      }
+    },
+    "circular_gauges_not_dynamic" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Circular gauge size are unable to be changed. The values as well as the size of the gauge do not grow with dynamic font sizes."
+          }
+        }
+      }
+    },
+    "circular_gauges_voiceover_note" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "With VoiceOver on, you'll notice that the gauges announce a percent value. That is done automatically, nothing is being set programmatically."
           }
         }
       }
@@ -426,7 +455,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Developers will need to manually disable the accessibility of the \"current label\" with `.accessibilityHidden()` otherwise it will be read out twice in VoiceOver."
+            "value" : "Developers will need add `.accessibilityHidden()` to whatever text value they put in the `currentValueLabel` otherwise VoiceOver will announce this twice."
           }
         }
       }
@@ -590,7 +619,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Linear gauges with built in label options."
+            "value" : "Linear gauges have a built in label options that get announced when VoiceOver is on even though the label might not be visually apparent. The different gauge styles have no affect on the VoiceOver aspect of accessibility, they all announce in the same way."
           }
         }
       }
@@ -704,6 +733,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Number of Votes"
+          }
+        }
+      }
+    },
+    "obtuse_angle" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtuse angle"
           }
         }
       }
@@ -890,6 +929,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rotor Usage"
+          }
+        }
+      }
+    },
+    "rotor_best_use_case" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "These items are best used with VoiceOver on."
           }
         }
       }
@@ -1202,6 +1251,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toggle"
+          }
+        }
+      }
+    },
+    "toggle_description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When VoiceOver is on, VoiceOver will automatically group the toggle and label together if you use the Toggle element."
           }
         }
       }

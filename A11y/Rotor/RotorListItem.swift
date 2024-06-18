@@ -15,6 +15,8 @@ enum RotorListItem: CaseIterable, Identifiable, ListItemNavigation {
     case images
     case links
     
+    static var descriptionHeaderString = String(localized: "rotor_best_use_case")
+    
     static var navTitleString: String {
         String(localized: "components")
     }
