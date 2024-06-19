@@ -11,26 +11,26 @@ enum RotorListItem: CaseIterable, Identifiable, ListItemNavigation {
     var id : String { UUID().uuidString }
     
     case headings
-    case buttons
-    case images
-    case links
+//    case buttons
+//    case images
+//    case links
     
     static var descriptionHeaderString = String(localized: "rotor_best_use_case")
     
     static var navTitleString: String {
-        String(localized: "components")
+        String(localized: "rotor")
     }
     
     var itemTitleString: String {
         switch self {
         case .headings:
             return String(localized: "headings")
-        case .buttons:
-            return String.localizedString(key: "coming_soon", arguments: String(localized: "buttons"))
-        case .images:
-            return String.localizedString(key: "coming_soon", arguments: String(localized: "images"))
-        case .links:
-            return String.localizedString(key: "coming_soon", arguments: String(localized: "links"))
+//        case .buttons:
+//            return String.localizedString(key: "coming_soon", arguments: String(localized: "buttons"))
+//        case .images:
+//            return String.localizedString(key: "coming_soon", arguments: String(localized: "images"))
+//        case .links:
+//            return String(localized: "links")
         }
     }
     
@@ -43,15 +43,15 @@ enum RotorListItem: CaseIterable, Identifiable, ListItemNavigation {
         case .headings:
            RotorHeadings(title: itemTitleString)
                 .toAnyView()
-        case .buttons:
-            SimpleTextView.notImplemented()
-                .toAnyView()
-        case .images:
-            SimpleTextView.notImplemented()
-                .toAnyView()
-        case .links:
-            SimpleTextView.notImplemented()
-                .toAnyView()
+//        case .buttons:
+//            SimpleTextView.notImplemented()
+//                .toAnyView()
+//        case .images:
+//            SimpleTextView.notImplemented()
+//                .toAnyView()
+//        case .links:
+//            RotorButtonView(title: itemTitleString)
+//                .toAnyView()
         }
     }
 }

@@ -1,6 +1,18 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "abbreviated" : {
+      "comment" : "Abbreviated style for date/time formatter",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abbreviated style"
+          }
+        }
+      }
+    },
     "about" : {
       "localizations" : {
         "en" : {
@@ -101,6 +113,9 @@
           }
         }
       }
+    },
+    "Apple Accessibility features" : {
+
     },
     "basic_pickers" : {
       "localizations" : {
@@ -207,6 +222,7 @@
       }
     },
     "buttons" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -317,6 +333,18 @@
         }
       }
     },
+    "complete" : {
+      "comment" : "Complete style for date/time formatter.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Complete style"
+          }
+        }
+      }
+    },
     "components" : {
       "comment" : "Label. Navigate to the UI Components lists",
       "extractionState" : "manual",
@@ -375,6 +403,26 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The label for these date pickers are built within the pickers. In larger fonts, the Picker will wrap the label but keep the date components on a single line."
+          }
+        }
+      }
+    },
+    "date_time_string_description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Each of the following date and time strings are using preset formatting styles. What gets read in VoiceOver is what is done out of the box."
+          }
+        }
+      }
+    },
+    "dates_and_time" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dates and time"
           }
         }
       }
@@ -450,6 +498,17 @@
         }
       }
     },
+    "distance_abbreviated" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Distance unit abbreviated style"
+          }
+        }
+      }
+    },
     "double_current_value" : {
       "localizations" : {
         "en" : {
@@ -491,7 +550,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Gauges"
+            "value" : "Linear gauges"
           }
         }
       }
@@ -591,7 +650,15 @@
       }
     },
     "images" : {
-
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Images"
+          }
+        }
+      }
     },
     "increase_count" : {
       "localizations" : {
@@ -707,6 +774,18 @@
         }
       }
     },
+    "narrow" : {
+      "comment" : "Narrow style unit format",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Narrow style"
+          }
+        }
+      }
+    },
     "native_carousel" : {
       "localizations" : {
         "en" : {
@@ -733,6 +812,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Number of Votes"
+          }
+        }
+      }
+    },
+    "numeric" : {
+      "comment" : "Numeric style for date/time formatter.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Numeric style"
           }
         }
       }
@@ -788,6 +879,7 @@
       }
     },
     "picker" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -906,7 +998,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reorderable"
+            "value" : "Reorderable list"
           }
         }
       }
@@ -1031,6 +1123,29 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Slider has an inner helper label manually added to it. Turn on VoiceOver and focus on the slider to hear the help text."
+          }
+        }
+      }
+    },
+    "speed_narrow" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Speed unit narrow style"
+          }
+        }
+      }
+    },
+    "standard" : {
+      "comment" : "Standard style for date/time formatter",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Standard style"
           }
         }
       }
@@ -1183,6 +1298,17 @@
         }
       }
     },
+    "temp_abbreviated" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temperature unit abbreviated style"
+          }
+        }
+      }
+    },
     "text_field" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -1295,6 +1421,26 @@
         }
       }
     },
+    "unit_abbreviations" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Units strings"
+          }
+        }
+      }
+    },
+    "unit_string_description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The unit strings are using predefined formatting styles and are automatically converted to your phones' locale. Not all units announce the full unit name instead of the abbreviation."
+          }
+        }
+      }
+    },
     "use_with_rotor" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1326,6 +1472,12 @@
         }
       }
     },
+    "WCAG 2.1" : {
+
+    },
+    "WCAG 2.2" : {
+
+    },
     "what_is_this" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1333,6 +1485,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "What is this?"
+          }
+        }
+      }
+    },
+    "wide" : {
+      "comment" : "Wide unit style formatting",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wide style"
           }
         }
       }
