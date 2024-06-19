@@ -45,6 +45,9 @@
 		D8CB2D4C2B4E275600730BFB /* CarouselList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CB2D4B2B4E275600730BFB /* CarouselList.swift */; };
 		D8CB2D4E2B4E2EB600730BFB /* CollectionViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CB2D4D2B4E2EB600730BFB /* CollectionViewList.swift */; };
 		D8D2A8852C223FF500DBD702 /* ItemNavigationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D2A8842C223FF500DBD702 /* ItemNavigationRow.swift */; };
+		D8D2A8892C22438B00DBD702 /* StringListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D2A8882C22438B00DBD702 /* StringListItem.swift */; };
+		D8D2A88B2C22447700DBD702 /* DatesTimeStringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D2A88A2C22447700DBD702 /* DatesTimeStringView.swift */; };
+		D8D2A88D2C2248C000DBD702 /* UnitStringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D2A88C2C2248C000DBD702 /* UnitStringView.swift */; };
 		D8E8BA7D2BAE55820066C5EF /* MultiDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E8BA7C2BAE55820066C5EF /* MultiDatePickerView.swift */; };
 		D8E8BA7F2BAE567E0066C5EF /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E8BA7E2BAE567E0066C5EF /* ColorPickerView.swift */; };
 		D8E8BA812BAE58700066C5EF /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E8BA802BAE58700066C5EF /* StepperView.swift */; };
@@ -112,6 +115,9 @@
 		D8CB2D4B2B4E275600730BFB /* CarouselList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselList.swift; sourceTree = "<group>"; };
 		D8CB2D4D2B4E2EB600730BFB /* CollectionViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewList.swift; sourceTree = "<group>"; };
 		D8D2A8842C223FF500DBD702 /* ItemNavigationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemNavigationRow.swift; sourceTree = "<group>"; };
+		D8D2A8882C22438B00DBD702 /* StringListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringListItem.swift; sourceTree = "<group>"; };
+		D8D2A88A2C22447700DBD702 /* DatesTimeStringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatesTimeStringView.swift; sourceTree = "<group>"; };
+		D8D2A88C2C2248C000DBD702 /* UnitStringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitStringView.swift; sourceTree = "<group>"; };
 		D8E8BA7C2BAE55820066C5EF /* MultiDatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDatePickerView.swift; sourceTree = "<group>"; };
 		D8E8BA7E2BAE567E0066C5EF /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
 		D8E8BA802BAE58700066C5EF /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
@@ -295,6 +301,9 @@
 		D8D2A8862C22434900DBD702 /* Strings */ = {
 			isa = PBXGroup;
 			children = (
+				D8D2A8882C22438B00DBD702 /* StringListItem.swift */,
+				D8D2A88A2C22447700DBD702 /* DatesTimeStringView.swift */,
+				D8D2A88C2C2248C000DBD702 /* UnitStringView.swift */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -441,6 +450,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8E8BA7D2BAE55820066C5EF /* MultiDatePickerView.swift in Sources */,
+				D8D2A88D2C2248C000DBD702 /* UnitStringView.swift in Sources */,
 				D8E8BA842BAE5D6E0066C5EF /* ChartsListItem.swift in Sources */,
 				D89911942B49F7BD00B7165C /* BasicNavigationList.swift in Sources */,
 				D842AC222C1FDCA60061BCDE /* CircularGaugesView.swift in Sources */,
@@ -461,6 +471,7 @@
 				D846C87F2BAA642B002544C4 /* PickerListItem.swift in Sources */,
 				D85DB4E92C1FD1D200A8C97D /* TextInputFormView.swift in Sources */,
 				D899119F2B4A483400B7165C /* ReorderableList.swift in Sources */,
+				D8D2A8892C22438B00DBD702 /* StringListItem.swift in Sources */,
 				D8D2A8852C223FF500DBD702 /* ItemNavigationRow.swift in Sources */,
 				D895A5372C1F975800B40BA7 /* TablesView.swift in Sources */,
 				D8BEEED22BA76C5100208801 /* ShortcutsView.swift in Sources */,
@@ -472,6 +483,7 @@
 				D8CB2D4C2B4E275600730BFB /* CarouselList.swift in Sources */,
 				D85DB4E72C1FCEAD00A8C97D /* TableSelectionView.swift in Sources */,
 				D89911652B49EC1200B7165C /* A11yApp.swift in Sources */,
+				D8D2A88B2C22447700DBD702 /* DatesTimeStringView.swift in Sources */,
 				D895C9E52BA53B4F00F82475 /* Toggle.swift in Sources */,
 				D895C9DE2BA52FC400F82475 /* View+Extension.swift in Sources */,
 				D895A5352C1F905F00B40BA7 /* PizzaToppings.swift in Sources */,

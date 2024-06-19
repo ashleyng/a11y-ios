@@ -20,6 +20,7 @@ struct MainListView: View {
                 chartListView
                 listItemView
                 componentItemView
+                stringItemView
                 rotorItemView
             }
             .toolbar {
@@ -63,6 +64,14 @@ struct MainListView: View {
     private var componentItemView: some View {
         Section(header: Text(ComponentItem.navTitleString)) {
             ForEach(ComponentItem.allCases.sorted()) { item in
+                ItemNavigationRow(item: item)
+            }
+        }
+    }
+    
+    private var stringItemView: some View {
+        Section(header: Text(StringListItem.navTitleString)) {
+            ForEach(StringListItem.allCases.sorted()) { item in
                 ItemNavigationRow(item: item)
             }
         }
