@@ -137,17 +137,6 @@
         }
       }
     },
-    "beats_per_minute" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Beats per minute"
-          }
-        }
-      }
-    },
     "bound_date_picker" : {
       "localizations" : {
         "en" : {
@@ -498,17 +487,6 @@
         }
       }
     },
-    "distance_abbreviated" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Distance unit abbreviated style"
-          }
-        }
-      }
-    },
     "double_current_value" : {
       "localizations" : {
         "en" : {
@@ -528,17 +506,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enter edit mode by tapping \"Edit\" button in navigation bar."
-          }
-        }
-      }
-    },
-    "enter_password" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Enter password"
           }
         }
       }
@@ -616,17 +583,6 @@
         }
       }
     },
-    "hint_text" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Hint text"
-          }
-        }
-      }
-    },
     "home" : {
       "comment" : "Title. Home landing page",
       "extractionState" : "manual",
@@ -645,17 +601,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Horizontal label-input style"
-          }
-        }
-      }
-    },
-    "images" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Images"
           }
         }
       }
@@ -1127,17 +1072,6 @@
         }
       }
     },
-    "speed_narrow" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Speed unit narrow style"
-          }
-        }
-      }
-    },
     "standard" : {
       "comment" : "Standard style for date/time formatter",
       "extractionState" : "manual",
@@ -1294,17 +1228,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "With VoiceOver off, tap and hold a row to reorder."
-          }
-        }
-      }
-    },
-    "temp_abbreviated" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Temperature unit abbreviated style"
           }
         }
       }
