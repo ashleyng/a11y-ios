@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import TipKit
 
 struct MainListView: View {
     
@@ -35,6 +36,19 @@ struct MainListView: View {
             }
             .navigationTitle(String(localized: "home"))
         }
+    }
+    
+    init() {
+        do {
+            try setupTips()
+        } catch {
+            print("Error initializing tips: \(error)")
+        }
+    }
+
+    private func setupTips() throws {
+        try Tips.resetDatastore()
+        try Tips.configure()
     }
     
     private var chartListView: some View {
