@@ -376,6 +376,17 @@
         }
       }
     },
+    "date" : {
+      "comment" : "As in the year, month, day date.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        }
+      }
+    },
     "date_picker" : {
       "localizations" : {
         "en" : {
@@ -422,6 +433,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dates available"
+          }
+        }
+      }
+    },
+    "day" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Day"
           }
         }
       }
@@ -499,6 +520,16 @@
     },
     "dropdown_picker" : {
 
+    },
+    "enable_symbols" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chart symbol shapes"
+          }
+        }
+      }
     },
     "enter_edit_mode" : {
       "localizations" : {
@@ -626,6 +657,26 @@
         }
       }
     },
+    "inline_tip_description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inline TipKits will not automatically take focus in VoiceOver. With inline TipKits, you will be able to tap the elements on the view without invalidating the TipKit. In this scenario, you can press the given button to toggle if the TipKit shows. Once you’ve dismissed the TipKit via the “X” button, you will have to force quit the app and reopen to be able to see and toggle it again."
+          }
+        }
+      }
+    },
+    "inline_tip_title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inline TipKit Title"
+          }
+        }
+      }
+    },
     "linear_gauge_description" : {
       "localizations" : {
         "en" : {
@@ -675,6 +726,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lists, grids, and tables"
+          }
+        }
+      }
+    },
+    "location" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Location "
           }
         }
       }
@@ -864,6 +925,46 @@
         }
       }
     },
+    "pollen_index" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pollen Index"
+          }
+        }
+      }
+    },
+    "popover_tip_description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Popover TipKits will automatically take focus in VoiceOver. Popovers will disable the items behind it. Dismissing this tooltip will require an app force quite and reopen to show the tool tip again."
+          }
+        }
+      }
+    },
+    "popover_tip_title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Popover TipKit Title"
+          }
+        }
+      }
+    },
+    "price" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Price"
+          }
+        }
+      }
+    },
     "progress" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -1002,6 +1103,16 @@
         }
       }
     },
+    "sales" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sales"
+          }
+        }
+      }
+    },
     "segemented_tap_and_hold" : {
       "localizations" : {
         "en" : {
@@ -1038,6 +1149,76 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Settings & Shortcuts"
+          }
+        }
+      }
+    },
+    "show_popover" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show Popover TipKit"
+          }
+        }
+      }
+    },
+    "simple_bar_chart" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simple Bar Chart"
+          }
+        }
+      }
+    },
+    "simple_bar_chart_description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simple bar chart with Apple’s stocks unit sales. No customization on chart, only things set are the data and some outside padding."
+          }
+        }
+      }
+    },
+    "simple_line_chart" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simple Line Chart"
+          }
+        }
+      }
+    },
+    "simple_line_chart_description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simple line chart of Apple’s highest sale prices for a given day. No customization on chart, only things set are the data and some outside padding."
+          }
+        }
+      }
+    },
+    "simple_scatter_chart" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simple Scatter Plot"
+          }
+        }
+      }
+    },
+    "simple_scatter_plot_description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simple scatter plot of the pollen index for different cities in a 27 day range. Only customization done is setting/toggling the symbols for each series. The colors and shapes are the default ones given."
           }
         }
       }
@@ -1314,12 +1495,32 @@
         }
       }
     },
+    "toggle_inline_tip" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toggle Inline TipKit"
+          }
+        }
+      }
+    },
     "toggle_label" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toggle label"
+          }
+        }
+      }
+    },
+    "tooltip" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tooltips"
           }
         }
       }

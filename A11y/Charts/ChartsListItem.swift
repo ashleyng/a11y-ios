@@ -10,7 +10,9 @@ import SwiftUI
 enum ChartListItem: CaseIterable, Identifiable, ListItemNavigation {
     var id : String { UUID().uuidString }
     
-    case charts
+    case simpleLineChart
+    case simpleBarChart
+    case simpleScatterChart
     case linearGauges
     case circularGauges
     
@@ -24,8 +26,12 @@ enum ChartListItem: CaseIterable, Identifiable, ListItemNavigation {
             return String(localized: "gauges")
         case .circularGauges:
             return String(localized: "circular_gauges")
-        case .charts:
-            return String.localizedString(key: "coming_soon", arguments: String(localized: "charts"))
+        case .simpleLineChart:
+            return String(localized: "simple_line_chart")
+        case .simpleBarChart:
+            return String(localized: "simple_bar_chart")
+        case .simpleScatterChart:
+            return String(localized: "simple_scatter_chart")
         }
     }
     
@@ -41,8 +47,14 @@ enum ChartListItem: CaseIterable, Identifiable, ListItemNavigation {
         case .circularGauges:
             CircularGaugesView(title: itemTitleString)
                 .toAnyView()
-        case .charts:
-            SimpleTextView.notImplemented()
+        case .simpleBarChart:
+            LineChartView(title: itemTitleString)
+                .toAnyView()
+        case .simpleLineChart:
+            BarChartView(title: itemTitleString)
+                .toAnyView()
+        case .simpleScatterChart:
+            ScatterChartView(title: itemTitleString)
                 .toAnyView()
         }
     }
